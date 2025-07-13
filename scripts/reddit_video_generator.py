@@ -104,7 +104,6 @@ def clean_markdown(text):
 def split_sentences(text):
     parts = re.split(r'(?:(?<=[\.!?])|(?<=  ))\s+', text.strip())
     parts = [p for p in parts if re.search(r'\w', p)]
-<<<<<<< HEAD
     log(f"  -> {len(parts)} sentences")
     return parts
 
@@ -113,16 +112,6 @@ async def tts_and_duration(txt, mp3_path):
     await edge_tts.Communicate(txt, VOICE, rate=TTS_RATE).save(mp3_path)
     dur = len(AudioSegment.from_file(mp3_path))
     log(f"  -> {dur}ms")
-=======
-    log(f"  → {len(parts)} sentences")
-    return parts
-
-async def tts_and_duration(txt, mp3_path):
-    log(f"TTS: {txt[:30]}… → {mp3_path}")
-    await edge_tts.Communicate(txt, VOICE, rate=TTS_RATE).save(mp3_path)
-    dur = len(AudioSegment.from_file(mp3_path))
-    log(f"  → {dur}ms")
->>>>>>> 17685057621a0121991a0d4b6dffac46484a7790
     return dur
 
 def ensure_vosk_model():
@@ -244,11 +233,7 @@ def main():
     raw      = clean_markdown(translate_phrases(raw_text)).replace('\n','  ')
     sents    = split_sentences(raw)
 
-<<<<<<< HEAD
     # TTS -> WAV
-=======
-    # TTS → WAV
->>>>>>> 17685057621a0121991a0d4b6dffac46484a7790
     os.makedirs('audio_chunks', exist_ok=True)
     durations, wavs = [], []
     for sent in sents:
@@ -290,11 +275,7 @@ def main():
                 'end':   ts['end']*1000   + offset,
                 'sid':   sid
             })
-<<<<<<< HEAD
         log(f"  -> Aligned {len(labelled)} words for sentence {sid}")
-=======
-        log(f"  → Aligned {len(labelled)} words for sentence {sid}")
->>>>>>> 17685057621a0121991a0d4b6dffac46484a7790
         all_words.extend(labelled)
         offset += dur
 
