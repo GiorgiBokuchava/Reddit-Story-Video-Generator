@@ -2,7 +2,8 @@ name: Auto-publish Reddit Story Video
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # every 3 hours
+    # runs at 14:00, 15:00, 20:00, and 23:00 UTC -> 9 AM, 10 AM, 3 PM, 6 PM EST
+    - cron: '0 14,15,20,23 * * *'
   workflow_dispatch:
 
 permissions:
