@@ -3,6 +3,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
+from .config import settings
 
 DRIVE_SCOPES = [
     'https://www.googleapis.com/auth/drive.file',
@@ -25,11 +26,14 @@ def get_drive_service():
 
     return build('drive','v3', credentials=creds)
 
-def upload_to_drive(local_path: str, parent_folder_id: str) -> str:
+def upload_to_drive(local_path: str) -> str:
     service = get_drive_service()
     media = MediaFileUpload(local_path, mimetype="video/mp4", resumable=True)
     req = service.files().create(
-        body={"name": os.path.basename(local_path), "parents":[parent_folder_id]},
+        body={
+            "name": os.path.basename(local_path),
+            "parents": [settings.drive_outputs_folder_id]
+        },
         media_body=media,
         fields="id"
     )
