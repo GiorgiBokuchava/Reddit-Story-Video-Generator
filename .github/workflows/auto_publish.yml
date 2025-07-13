@@ -50,7 +50,7 @@ jobs:
       - name: Commit updated used_posts.json
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: chore: update used_posts.json
-          file_pattern: used_posts.json
+          commit_message: "chore: update used_posts.json"
+          file_pattern: "used_posts.json"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
