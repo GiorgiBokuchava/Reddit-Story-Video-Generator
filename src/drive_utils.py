@@ -1,65 +1,84 @@
-# src/drive_utils.py
-
 import os
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
-from google.oauth2.credentials import Credentials
+import json
+from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+from googleapiclient.http import MediaFileUpload
 
-from .config import settings
+SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 
-# These are the scopes you must have in your token.json:
-DRIVE_SCOPES = [
-    'https://www.googleapis.com/auth/drive.file', # upload into your outputs folder
-    'https://www.googleapis.com/auth/drive.readonly', # download background clips
-    'https://www.googleapis.com/auth/drive.metadata.readonly', # list folder contents
-]
-
-TOKEN_PATH = settings.TOKEN_PATH  # e.g. "token.json"
-
-def get_drive_service():
+def get_youtube_service():
     creds = None
 
-    # 1) Load existing credentials (now re-associate the Drive scopes)
-    if os.path.exists(TOKEN_PATH):
-        creds = Credentials.from_authorized_user_file(TOKEN_PATH, DRIVE_SCOPES)
+    # load in‐memory token
+    token_json = os.getenv('TOKEN_JSON')
+    if token_json:
+        info = json.loads(token_json)
+        creds = Credentials.from_authorized_user_info(info, SCOPES)
 
-    # 2) Refresh if expired
+    # refresh if needed
     if creds and creds.expired and creds.refresh_token:
         creds.refresh(Request())
 
-    # 3) If we still don’t have valid creds, ask user to reprovision
+    # if still invalid, run OAuth from in‐memory client config
     if not creds or not creds.valid:
-        raise RuntimeError(
-            "No valid Drive credentials.  \n"
-            "Please run your `refresh_token.py` (with DRIVE + YT scopes) to reprovision token.json."
-        )
+        creds_json = os.getenv('CREDS_JSON')
+        if not creds_json:
+            raise RuntimeError("CREDS_JSON not set in env")
+        client_cfg = json.loads(creds_json)
+        flow = InstalledAppFlow.from_client_config(client_cfg, SCOPES)
+        creds = flow.run_console()    # or run_local_server()
 
-    return build('drive', 'v3', credentials=creds)
+    return build('youtube','v3', credentials=creds)
 
-def upload_to_drive(local_path: str) -> str:
-    service = get_drive_service()
+def upload_to_youtube(
+    file_path: str,
+    title: str,
+    description: str,
+    thumbnail_path: str = None,
+    tags: list[str] = None
+) -> str:
+    youtube = get_youtube_service()
 
-    media = MediaFileUpload(
-        local_path,
-        mimetype="video/mp4",
-        resumable=True,
-        chunksize=10 * 1024 * 1024
-    )
-
-    req = service.files().create(
-        body={
-            "name": os.path.basename(local_path),
-            "parents": [settings.DRIVE_OUTPUTS_FOLDER_ID]
+    body = {
+        'snippet': {
+            'title': title,
+            'description': description,
+            'tags': tags or [],
+            'categoryId': '23',
         },
-        media_body=media,
-        fields="id"
+        'status': {'privacyStatus': 'public'}
+    }
+
+    media = MediaFileUpload(file_path, chunksize=-1, resumable=True)
+    req = youtube.videos().insert(
+        part=','.join(body.keys()),
+        body=body,
+        media_body=media
     )
 
-    resp = None
-    while resp is None:
-        status, resp = req.next_chunk()
+    res = None
+    while res is None:
+        status, res = req.next_chunk()
         if status:
-            pct = int(status.progress() * 100)
-            print(f"  → Drive upload progress: {pct}%")
-    return resp["id"]
+            print(f"  → YouTube upload {int(status.progress()*100)}%")
+
+    vid = res.get('id')
+    print(f"[+] YouTube video ID: {vid}")
+
+    if thumbnail_path:
+        try:
+            youtube.thumbnails().set(
+                videoId=vid,
+                media_body=MediaFileUpload(thumbnail_path)
+            ).execute()
+            print("  → Thumbnail set")
+        except HttpError as e:
+            if e.resp.status == 403:
+                print("  [!] Skipped thumbnail: no permission")
+            else:
+                raise
+
+    return vid
