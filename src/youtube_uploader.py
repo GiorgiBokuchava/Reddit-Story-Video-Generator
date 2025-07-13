@@ -1,5 +1,4 @@
-import os
-import json
+import os, json
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -11,24 +10,22 @@ SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
 
 def get_youtube_service():
     creds = None
-    # load in‐memory token
+
     token_json = os.getenv('TOKEN_JSON')
     if token_json:
         info = json.loads(token_json)
         creds = Credentials.from_authorized_user_info(info, SCOPES)
 
-    # refresh if needed
     if creds and creds.expired and creds.refresh_token:
         creds.refresh(Request())
 
-    # if still invalid, run OAuth from in‐memory client config
     if not creds or not creds.valid:
         creds_json = os.getenv('CREDS_JSON')
         if not creds_json:
             raise RuntimeError("CREDS_JSON not set in env")
         client_cfg = json.loads(creds_json)
         flow = InstalledAppFlow.from_client_config(client_cfg, SCOPES)
-        creds = flow.run_console()    # or run_local_server()
+        creds = flow.run_console()
 
     return build('youtube','v3', credentials=creds)
 

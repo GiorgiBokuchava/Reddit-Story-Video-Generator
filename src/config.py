@@ -25,8 +25,8 @@ class Settings:
     elevenlabs_api_key: str = os.getenv("ELEVENLABS_API_KEY","")
     elevenlabs_voice_id: str = os.getenv("ELEVENLABS_VOICE_ID","21m00Tcm4TlvDq8ikWAM")
     elevenlabs_use_ssml: bool = _str_to_bool(os.getenv("ELEVENLABS_USE_SSML","false"))
-    elevenlabs_prosody_rate: str = os.getenv("ELEVENLABS_PROSODY_RATE","100%")
-    elevenlabs_stability: float = float(os.getenv("ELEVENLABS_STABILITY","0.75"))
+    elevenlabs_prosody_rate:str= os.getenv("ELEVENLABS_PROSODY_RATE","100%")
+    elevenlabs_stability: float= float(os.getenv("ELEVENLABS_STABILITY","0.75"))
     elevenlabs_similarity_boost: float = float(os.getenv("ELEVENLABS_SIMILARITY_BOOST","0.85"))
 
     # Subtitles
@@ -37,7 +37,7 @@ class Settings:
     audio_mp3: str = "output/combined.mp3"
     audio_wav: str = "output/combined.wav"
 
-    # Fonts / models
+    # Fonts/models
     model_dir: str = "model"
     fonts_dir: str = "assets/font"
 
@@ -50,7 +50,7 @@ class Settings:
 
     # Drive
     drive_backgrounds_folder_id: str = os.getenv("DRIVE_BACKGROUNDS_FOLDER_ID","")
-    drive_outputs_folder_id: str = os.getenv("DRIVE_OUTPUTS_FOLDER_ID","")
+    drive_outputs_folder_id:     str = os.getenv("DRIVE_OUTPUTS_FOLDER_ID","")
 
     # Toggles
     upload_to_drive: bool = _str_to_bool(os.getenv("UPLOAD_DRIVE","true"))
@@ -62,7 +62,7 @@ class Settings:
     thumbnail_output_png: str = "output/thumbnail.png"
     thumbnail_font_path: str = "assets/fonts/Inter_18pt-Bold.ttf"
     thumbnail_sub_font_size: int = 56
-    thumbnail_title_font_size: int = 68
+    thumbnail_title_font_size:int = 68
     thumbnail_padding: int = 32
 
     # YouTube tags

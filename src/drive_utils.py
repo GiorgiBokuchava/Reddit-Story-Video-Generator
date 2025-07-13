@@ -1,84 +1,41 @@
-import os
-import json
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
+import os, json
 from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
+from google.oauth2.credentials import Credentials
+from google.auth.transport.requests import Request
 
-SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
+DRIVE_SCOPES = [
+    'https://www.googleapis.com/auth/drive.file',
+    'https://www.googleapis.com/auth/drive.readonly',
+    'https://www.googleapis.com/auth/drive.metadata.readonly',
+]
 
-def get_youtube_service():
-    creds = None
-
-    # load in‐memory token
+def get_drive_service():
     token_json = os.getenv('TOKEN_JSON')
-    if token_json:
-        info = json.loads(token_json)
-        creds = Credentials.from_authorized_user_info(info, SCOPES)
+    if not token_json:
+        raise RuntimeError("TOKEN_JSON not set in env")
+    info = json.loads(token_json)
+    creds = Credentials.from_authorized_user_info(info, DRIVE_SCOPES)
 
-    # refresh if needed
-    if creds and creds.expired and creds.refresh_token:
+    if creds.expired and creds.refresh_token:
         creds.refresh(Request())
 
-    # if still invalid, run OAuth from in‐memory client config
     if not creds or not creds.valid:
-        creds_json = os.getenv('CREDS_JSON')
-        if not creds_json:
-            raise RuntimeError("CREDS_JSON not set in env")
-        client_cfg = json.loads(creds_json)
-        flow = InstalledAppFlow.from_client_config(client_cfg, SCOPES)
-        creds = flow.run_console()    # or run_local_server()
+        raise RuntimeError("Drive credentials invalid—please refresh TOKEN_JSON")
 
-    return build('youtube','v3', credentials=creds)
+    return build('drive','v3', credentials=creds)
 
-def upload_to_youtube(
-    file_path: str,
-    title: str,
-    description: str,
-    thumbnail_path: str = None,
-    tags: list[str] = None
-) -> str:
-    youtube = get_youtube_service()
-
-    body = {
-        'snippet': {
-            'title': title,
-            'description': description,
-            'tags': tags or [],
-            'categoryId': '23',
-        },
-        'status': {'privacyStatus': 'public'}
-    }
-
-    media = MediaFileUpload(file_path, chunksize=-1, resumable=True)
-    req = youtube.videos().insert(
-        part=','.join(body.keys()),
-        body=body,
-        media_body=media
+def upload_to_drive(local_path: str, parent_folder_id: str) -> str:
+    service = get_drive_service()
+    media = MediaFileUpload(local_path, mimetype="video/mp4", resumable=True)
+    req = service.files().create(
+        body={"name": os.path.basename(local_path), "parents":[parent_folder_id]},
+        media_body=media,
+        fields="id"
     )
-
-    res = None
-    while res is None:
-        status, res = req.next_chunk()
+    resp = None
+    while resp is None:
+        status, resp = req.next_chunk()
         if status:
-            print(f"  → YouTube upload {int(status.progress()*100)}%")
-
-    vid = res.get('id')
-    print(f"[+] YouTube video ID: {vid}")
-
-    if thumbnail_path:
-        try:
-            youtube.thumbnails().set(
-                videoId=vid,
-                media_body=MediaFileUpload(thumbnail_path)
-            ).execute()
-            print("  → Thumbnail set")
-        except HttpError as e:
-            if e.resp.status == 403:
-                print("  [!] Skipped thumbnail: no permission")
-            else:
-                raise
-
-    return vid
+            print(f"  → Drive upload {int(status.progress()*100)}%")
+    return resp["id"]
