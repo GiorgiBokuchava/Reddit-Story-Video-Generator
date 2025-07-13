@@ -18,7 +18,6 @@ class Settings:
     reddit_client_secret: str = os.getenv("REDDIT_CLIENT_SECRET", "")
     reddit_user_agent: str = os.getenv("REDDIT_USER_AGENT", "")
 
-<<<<<<< HEAD
     # Which TTS backend to use: "edge", "elevenlabs", or "whisper"
     tts_provider: str = os.getenv("TTS_PROVIDER", "elevenlabs")
 
@@ -34,12 +33,6 @@ class Settings:
     elevenlabs_stability: float = float(os.getenv("ELEVENLABS_STABILITY", "0.75"))
     elevenlabs_similarity_boost: float = float(os.getenv("ELEVENLABS_SIMILARITY_BOOST", "0.85"))
 
-=======
-    # TTS settings
-    edge_tts_voice: str = os.getenv("EDGE_TTS_VOICE", "en-US-JennyNeural")
-    edge_tts_rate: str = os.getenv("EDGE_TTS_RATE", "+10%")
-
->>>>>>> 17685057621a0121991a0d4b6dffac46484a7790
     # Subtitle template
     template_ass: str = "captions/captions.ass"
     output_ass: str = "captions/captions_karaoke.ass"
@@ -61,10 +54,9 @@ class Settings:
 
     # Drive folders
     drive_backgrounds_folder_id: str = os.getenv("DRIVE_BACKGROUNDS_FOLDER_ID", "")
-    drive_outputs_folder_id: str = os.getenv("DRIVE_OUTPUTS_FOLDER_ID", "")
+    DRIVE_OUTPUTS_FOLDER_ID: str = os.getenv("DRIVE_OUTPUTS_FOLDER_ID", "")
 
     # GCP credentials
-<<<<<<< HEAD
     CREDS_PATH: str = os.getenv("CREDS_PATH", "credentials.json")
     TOKEN_PATH: str = os.getenv("TOKEN_PATH", "token.json")
 
@@ -85,13 +77,3 @@ class Settings:
     youtube_video_tags: list[str] = field(default_factory=lambda: ["#TIFU", "#RedditStories", "#StoryTime", "#Reddit"])
 
 settings = Settings()
-=======
-    CREDS_PATH = os.getenv("CREDS_PATH", "credentials.json")
-    TOKEN_PATH = os.getenv("TOKEN_PATH", "token.json")
-
-    # Toggle uploads
-    upload_to_drive: bool = os.getenv("UPLOAD_DRIVE", "true").lower() in ("1","true","yes")
-    upload_to_youtube: bool = os.getenv("UPLOAD_YT", "true").lower() in ("1","true","yes")
-
-settings = Settings()
->>>>>>> 17685057621a0121991a0d4b6dffac46484a7790

@@ -32,9 +32,9 @@ def upload_to_folder(local_path: str, folder_id: str) -> str:
 
 if __name__ == "__main__":
     # 4) Read folder ID now that .env is loaded
-    folder_id = os.getenv("DRIVE_OUTPUTs_FOLDER_ID")
+    folder_id = os.getenv("DRIVE_OUTPUTS_FOLDER_ID")
     if not folder_id:
-        raise RuntimeError("Set DRIVE_OUTPUTs_FOLDER_ID in your .env")
+        raise RuntimeError("Set DRIVE_OUTPUTS_FOLDER_ID in your .env")
 
     # 5) Create a tiny dummy file
     test_file = "test.txt"
