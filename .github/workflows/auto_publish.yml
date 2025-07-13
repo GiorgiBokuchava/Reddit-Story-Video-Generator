@@ -2,7 +2,7 @@ name: Auto-publish Reddit Story Video
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */3 * * *' # every 3 hours
   workflow_dispatch:
 
 jobs:
@@ -10,34 +10,51 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Set up Python & Playwright
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - run: |
+      - name: Install dependencies
+        run: |
           pip install --upgrade pip
           pip install -r requirements.txt
           playwright install --with-deps
 
       - name: Restore OAuth files
         run: |
+          # These two secrets must contain the raw JSON from your
+          # GCP credentials.json and your refreshed token.json:
           echo "${{ secrets.CREDS_JSON }}" > credentials.json
           echo "${{ secrets.TOKEN_JSON }}" > token.json
 
       - name: Run generator
         env:
+          # Reddit
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+
+          # Edge-TTS
           EDGE_TTS_VOICE: ${{ secrets.EDGE_TTS_VOICE }}
           EDGE_TTS_RATE: ${{ secrets.EDGE_TTS_RATE }}
+
+          # ElevenLabs
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_USE_SSML: ${{ secrets.ELEVENLABS_USE_SSML }}
+          ELEVENLABS_PROSODY_RATE: ${{ secrets.ELEVENLABS_PROSODY_RATE }}
+          ELEVENLABS_STABILITY: ${{ secrets.ELEVENLABS_STABILITY }}
+          ELEVENLABS_SIMILARITY_BOOST: ${{ secrets.ELEVENLABS_SIMILARITY_BOOST }}
+
+          # Drive
           DRIVE_BACKGROUNDS_FOLDER_ID: ${{ secrets.DRIVE_BACKGROUNDS_FOLDER_ID }}
           DRIVE_OUTPUTS_FOLDER_ID: ${{ secrets.DRIVE_OUTPUTS_FOLDER_ID }}
+
+          # Finder limits, toggles, etc.
           SUBREDDITS: ${{ secrets.SUBREDDITS }}
           MIN_COMMENTS: ${{ secrets.MIN_COMMENTS }}
           MIN_POST_LENGTH: ${{ secrets.MIN_POST_LENGTH }}
