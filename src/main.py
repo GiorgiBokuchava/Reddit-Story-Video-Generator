@@ -20,16 +20,16 @@ from googleapiclient.errors import HttpError
 load_dotenv()
 
 def main():
-    # 1) Pick next post
+    # Pick next post
     reddit = init_reddit()
     submission = find_next_post(reddit)
     print(f"[+] r/{submission.subreddit.display_name} • {submission.id}")
     print(f"    Title: {submission.title!r}")
     print(f"    URL:   https://reddit.com{submission.permalink}\n")
 
-    # 2) TTS -> audio + (optional) word timings
-    raw = submission.title + "\n\n" + submission.selftext
-    text = clean_markdown(translate_phrases(raw))
+    # TTS -> audio + (optional) word timings
+    raw_post = submission.title + "\n\n" + submission.selftext
+    text = clean_markdown(translate_phrases(raw_post))
     sentences = split_sentences(text)
 
     provider = settings.tts_provider.lower()
@@ -43,11 +43,11 @@ def main():
     else:
         raise ValueError(f"Unknown TTS_PROVIDER: {settings.tts_provider}")
 
-    # 3) Combine audio and write ASS subtitles
+    # Combine audio and write ASS subtitles
     combine_wavs(wav_infos, settings.audio_mp3, settings.audio_wav)
     write_karaoke_ass(all_words)
 
-    # 4) Generate & populate the SVG template
+    # Generate & populate the SVG template
     tpl_svg = settings.thumbnail_template_svg
     pop_svg = settings.thumbnail_populated_svg
     generate_svg(
@@ -63,7 +63,7 @@ def main():
     )
     print(f"[+] Populated SVG written -> {pop_svg}")
 
-    # 5) Rasterize & crop/round to PNG
+    # Rasterize & crop/round to PNG
     card_png = settings.thumbnail_output_png
     svg_to_card_png(
         svg_path = pop_svg,
@@ -77,11 +77,11 @@ def main():
     )
     print(f"[+] Generated card PNG -> {card_png}")
 
-    # 6) First-sentence duration
+    # First-sentence duration
     _, first_ms = wav_infos[0]
-    first_dur   = first_ms / 1000.0
+    first_dur = first_ms / 1000.0
 
-    # 7) Burn & mux: overlay card then subtitles
+    # Burn & mux: overlay card then subtitles
     drive_id, final_video = burn_and_mux(
         card_png = card_png,
         ass_path = settings.output_ass,
@@ -93,15 +93,14 @@ def main():
         print("[*] Skipped Drive upload")
     print(f"[+] Final video -> {final_video}")
 
-    # 8) Upload to YouTube
+    # Upload to YouTube
     if settings.upload_to_youtube:
         try:
             yt_id = upload_to_youtube(
                 final_video,
                 title=submission.title,
                 description=(
-                    "Enjoy this reading of a top Reddit story—\n"
-                    "narrated with voice and subtitles. Subscribe for more daily tales!\n\n"
+                    raw_post + "\n\n"
                     + " ".join(settings.youtube_video_tags)
                 ),
                 thumbnail_path=card_png
@@ -112,7 +111,7 @@ def main():
     else:
         print("[*] Skipped YouTube upload")
 
-    # 9) Cleanup audio intermediates + generated SVG/PNG/MP4
+    # Cleanup audio intermediates + generated SVG/PNG/MP4
     audio_cleanup("audio_chunks", settings.audio_mp3, settings.audio_wav)
 
     # remove the temporary title‐card SVG, PNG, and final video
