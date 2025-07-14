@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+import subprocess
 from dotenv import load_dotenv
 
 from .reddit_client import init_reddit
@@ -7,7 +8,7 @@ from .post_finder import find_next_post
 from .text_processing import translate_phrases, clean_markdown, split_sentences
 from .audio import combine_wavs, cleanup as audio_cleanup
 from .ass_builder import write_karaoke_ass
-from .thumbnail_generator import generate_svg
+from .thumbnail_card_generator import generate_svg
 from .svg_raster import svg_to_card_png
 from .video_mux import burn_and_mux
 from .tts_elevenlabs import synthesize_with_elevenlabs
@@ -93,6 +94,22 @@ def main():
         print("[*] Skipped Drive upload")
     print(f"[+] Final video -> {final_video}")
 
+    # Extract a thumbnail frame at t=1s
+    thumb_frame = "output/youtube_thumbnail_16x9.png"
+    subprocess.run([
+        "ffmpeg", "-y",
+        "-ss", "00:00:01",           # seek to 1 s
+        "-i", final_video,           # input your finished MP4
+        "-frames:v", "1",            # extract one frame
+        "-vf", (
+            "transpose=1,"           # rotate clockwise into landscape
+            "scale=1280:-1,"         # width=1280, height auto (will be 720)
+            "pad=1280:720:(ow-iw)/2:(oh-ih)/2"  # center/pad to exactly 1280×720
+        ),
+        thumb_frame
+    ], check=True)
+    print(f"[+] Generated 16:9 thumbnail -> {thumb_frame}")
+
     # Upload to YouTube
     if settings.upload_to_youtube:
         try:
@@ -103,7 +120,7 @@ def main():
                     raw_post + "\n\n"
                     + " ".join(settings.youtube_video_tags)
                 ),
-                thumbnail_path=card_png
+                thumbnail_path=thumb_frame
             )
             print(f"[+] YouTube URL: https://youtu.be/{yt_id}")
         except HttpError as e:
@@ -118,6 +135,7 @@ def main():
     for path in (
         settings.thumbnail_populated_svg,
         settings.thumbnail_output_png,
+        thumb_frame,
         final_video,
     ):
         try:

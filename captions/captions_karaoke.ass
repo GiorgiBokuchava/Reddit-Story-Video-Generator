@@ -13,422 +13,456 @@ Style: Default,Poppins Bold,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
 
-Dialogue: 0,0:00:00.00,0:00:00.42,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}Today{\1c&HFFFFFF&} I have to
-Dialogue: 0,0:00:00.42,0:00:00.62,Default,,0,0,0,,{\an5\bord1}Today {\1c&H00FFFF&}I{\1c&HFFFFFF&} have to
-Dialogue: 0,0:00:00.62,0:00:00.72,Default,,0,0,0,,{\an5\bord1}Today I {\1c&H00FFFF&}have{\1c&HFFFFFF&} to
-Dialogue: 0,0:00:00.72,0:00:00.80,Default,,0,0,0,,{\an5\bord1}Today I have {\1c&H00FFFF&}to{\1c&HFFFFFF&}
-Dialogue: 0,0:00:00.80,0:00:00.90,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}up{\1c&HFFFFFF&} by having
-Dialogue: 0,0:00:00.90,0:00:01.02,Default,,0,0,0,,{\an5\bord1}up {\1c&H00FF00&}by{\1c&HFFFFFF&} having
-Dialogue: 0,0:00:01.02,0:00:01.18,Default,,0,0,0,,{\an5\bord1}up by {\1c&H00FF00&}having{\1c&HFFFFFF&}
-Dialogue: 0,0:00:01.18,0:00:01.40,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}the{\1c&HFFFFFF&} cops called
-Dialogue: 0,0:00:01.40,0:00:01.54,Default,,0,0,0,,{\an5\bord1}the {\1c&H00FF00&}cops{\1c&HFFFFFF&} called
-Dialogue: 0,0:00:01.54,0:00:01.80,Default,,0,0,0,,{\an5\bord1}the cops {\1c&H00FF00&}called{\1c&HFFFFFF&}
-Dialogue: 0,0:00:01.80,0:00:01.94,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}on{\1c&HFFFFFF&} me for
-Dialogue: 0,0:00:01.94,0:00:02.08,Default,,0,0,0,,{\an5\bord1}on {\1c&H0000FF&}me{\1c&HFFFFFF&} for
-Dialogue: 0,0:00:02.08,0:00:02.20,Default,,0,0,0,,{\an5\bord1}on me {\1c&H0000FF&}for{\1c&HFFFFFF&}
-Dialogue: 0,0:00:02.20,0:00:02.40,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}losing{\1c&HFFFFFF&} my shit
-Dialogue: 0,0:00:02.40,0:00:02.64,Default,,0,0,0,,{\an5\bord1}losing {\1c&H00FF00&}my{\1c&HFFFFFF&} shit
-Dialogue: 0,0:00:02.64,0:00:02.74,Default,,0,0,0,,{\an5\bord1}losing my {\1c&H00FF00&}shit{\1c&HFFFFFF&}
-Dialogue: 0,0:00:02.74,0:00:02.86,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}at{\1c&HFFFFFF&} my roommates
-Dialogue: 0,0:00:02.86,0:00:03.04,Default,,0,0,0,,{\an5\bord1}at {\1c&H00FFFF&}my{\1c&HFFFFFF&} roommates
-Dialogue: 0,0:00:03.04,0:00:03.28,Default,,0,0,0,,{\an5\bord1}at my {\1c&H00FFFF&}roommates{\1c&HFFFFFF&}
-Dialogue: 0,0:00:03.28,0:00:03.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}for{\1c&HFFFFFF&} eating my
-Dialogue: 0,0:00:03.46,0:00:03.64,Default,,0,0,0,,{\an5\bord1}for {\1c&H00FF00&}eating{\1c&HFFFFFF&} my
-Dialogue: 0,0:00:03.64,0:00:03.88,Default,,0,0,0,,{\an5\bord1}for eating {\1c&H00FF00&}my{\1c&HFFFFFF&}
-Dialogue: 0,0:00:03.88,0:00:04.16,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}cake.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:05.00,0:00:05.08,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}I{\1c&HFFFFFF&} came back
-Dialogue: 0,0:00:05.08,0:00:05.24,Default,,0,0,0,,{\an5\bord1}I {\1c&H00FFFF&}came{\1c&HFFFFFF&} back
-Dialogue: 0,0:00:05.24,0:00:05.46,Default,,0,0,0,,{\an5\bord1}I came {\1c&H00FFFF&}back{\1c&HFFFFFF&}
-Dialogue: 0,0:00:05.46,0:00:05.62,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}from{\1c&HFFFFFF&} work on
-Dialogue: 0,0:00:05.62,0:00:05.76,Default,,0,0,0,,{\an5\bord1}from {\1c&H0000FF&}work{\1c&HFFFFFF&} on
-Dialogue: 0,0:00:05.76,0:00:05.94,Default,,0,0,0,,{\an5\bord1}from work {\1c&H0000FF&}on{\1c&HFFFFFF&}
-Dialogue: 0,0:00:05.94,0:00:06.12,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}Friday{\1c&HFFFFFF&} with a
-Dialogue: 0,0:00:06.12,0:00:06.36,Default,,0,0,0,,{\an5\bord1}Friday {\1c&H00FF00&}with{\1c&HFFFFFF&} a
-Dialogue: 0,0:00:06.36,0:00:06.52,Default,,0,0,0,,{\an5\bord1}Friday with {\1c&H00FF00&}a{\1c&HFFFFFF&}
-Dialogue: 0,0:00:06.52,0:00:06.70,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}small{\1c&HFFFFFF&} cake that
-Dialogue: 0,0:00:06.70,0:00:06.88,Default,,0,0,0,,{\an5\bord1}small {\1c&H00FF00&}cake{\1c&HFFFFFF&} that
-Dialogue: 0,0:00:06.88,0:00:07.04,Default,,0,0,0,,{\an5\bord1}small cake {\1c&H00FF00&}that{\1c&HFFFFFF&}
-Dialogue: 0,0:00:07.04,0:00:07.18,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}a{\1c&HFFFFFF&} coworker who
-Dialogue: 0,0:00:07.18,0:00:07.54,Default,,0,0,0,,{\an5\bord1}a {\1c&H0000FF&}coworker{\1c&HFFFFFF&} who
-Dialogue: 0,0:00:07.54,0:00:07.68,Default,,0,0,0,,{\an5\bord1}a coworker {\1c&H0000FF&}who{\1c&HFFFFFF&}
-Dialogue: 0,0:00:07.68,0:00:07.84,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}I'm{\1c&HFFFFFF&} friends
-Dialogue: 0,0:00:07.84,0:00:08.02,Default,,0,0,0,,{\an5\bord1}I'm {\1c&H00FF00&}friends{\1c&HFFFFFF&}
-Dialogue: 0,0:00:08.02,0:00:08.22,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}with{\1c&HFFFFFF&} baked for
-Dialogue: 0,0:00:08.22,0:00:08.38,Default,,0,0,0,,{\an5\bord1}with {\1c&H00FF00&}baked{\1c&HFFFFFF&} for
-Dialogue: 0,0:00:08.38,0:00:08.52,Default,,0,0,0,,{\an5\bord1}with baked {\1c&H00FF00&}for{\1c&HFFFFFF&}
-Dialogue: 0,0:00:08.52,0:00:08.84,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}me.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:08.90,0:00:08.96,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}It{\1c&HFFFFFF&} was my
-Dialogue: 0,0:00:08.96,0:00:09.10,Default,,0,0,0,,{\an5\bord1}It {\1c&H0000FF&}was{\1c&HFFFFFF&} my
-Dialogue: 0,0:00:09.10,0:00:09.26,Default,,0,0,0,,{\an5\bord1}It was {\1c&H0000FF&}my{\1c&HFFFFFF&}
-Dialogue: 0,0:00:09.26,0:00:09.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}birthday{\1c&HFFFFFF&} last
-Dialogue: 0,0:00:09.46,0:00:09.74,Default,,0,0,0,,{\an5\bord1}birthday {\1c&H00FFFF&}last{\1c&HFFFFFF&}
-Dialogue: 0,0:00:09.74,0:00:10.00,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}week,{\1c&HFFFFFF&} but she
-Dialogue: 0,0:00:10.04,0:00:10.16,Default,,0,0,0,,{\an5\bord1}week, {\1c&H00FF00&}but{\1c&HFFFFFF&} she
-Dialogue: 0,0:00:10.16,0:00:10.28,Default,,0,0,0,,{\an5\bord1}week, but {\1c&H00FF00&}she{\1c&HFFFFFF&}
-Dialogue: 0,0:00:10.28,0:00:10.46,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}was{\1c&HFFFFFF&} on leave
-Dialogue: 0,0:00:10.46,0:00:10.58,Default,,0,0,0,,{\an5\bord1}was {\1c&H0000FF&}on{\1c&HFFFFFF&} leave
-Dialogue: 0,0:00:10.58,0:00:10.74,Default,,0,0,0,,{\an5\bord1}was on {\1c&H0000FF&}leave{\1c&HFFFFFF&}
-Dialogue: 0,0:00:10.74,0:00:10.90,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}and{\1c&HFFFFFF&} had
-Dialogue: 0,0:00:10.90,0:00:11.10,Default,,0,0,0,,{\an5\bord1}and {\1c&H00FF00&}had{\1c&HFFFFFF&}
-Dialogue: 0,0:00:11.10,0:00:11.26,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}promised{\1c&HFFFFFF&} to
-Dialogue: 0,0:00:11.26,0:00:11.46,Default,,0,0,0,,{\an5\bord1}promised {\1c&H0000FF&}to{\1c&HFFFFFF&}
-Dialogue: 0,0:00:11.46,0:00:11.56,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}bake{\1c&HFFFFFF&} me a cake
-Dialogue: 0,0:00:11.56,0:00:11.76,Default,,0,0,0,,{\an5\bord1}bake {\1c&H00FFFF&}me{\1c&HFFFFFF&} a cake
-Dialogue: 0,0:00:11.76,0:00:11.84,Default,,0,0,0,,{\an5\bord1}bake me {\1c&H00FFFF&}a{\1c&HFFFFFF&} cake
-Dialogue: 0,0:00:11.84,0:00:11.96,Default,,0,0,0,,{\an5\bord1}bake me a {\1c&H00FFFF&}cake{\1c&HFFFFFF&}
-Dialogue: 0,0:00:11.96,0:00:12.08,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}for{\1c&HFFFFFF&} my
-Dialogue: 0,0:00:12.08,0:00:12.26,Default,,0,0,0,,{\an5\bord1}for {\1c&H0000FF&}my{\1c&HFFFFFF&}
-Dialogue: 0,0:00:12.26,0:00:12.52,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}birthday.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:13.38,0:00:13.54,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}I{\1c&HFFFFFF&} usually would
-Dialogue: 0,0:00:13.54,0:00:13.78,Default,,0,0,0,,{\an5\bord1}I {\1c&H00FF00&}usually{\1c&HFFFFFF&} would
-Dialogue: 0,0:00:13.78,0:00:13.96,Default,,0,0,0,,{\an5\bord1}I usually {\1c&H00FF00&}would{\1c&HFFFFFF&}
-Dialogue: 0,0:00:13.96,0:00:14.10,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}have{\1c&HFFFFFF&} shared
-Dialogue: 0,0:00:14.10,0:00:14.24,Default,,0,0,0,,{\an5\bord1}have {\1c&H0000FF&}shared{\1c&HFFFFFF&}
-Dialogue: 0,0:00:14.24,0:00:14.48,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}something{\1c&HFFFFFF&} like
-Dialogue: 0,0:00:14.48,0:00:14.72,Default,,0,0,0,,{\an5\bord1}something {\1c&H0000FF&}like{\1c&HFFFFFF&}
-Dialogue: 0,0:00:14.72,0:00:14.94,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}cake,{\1c&HFFFFFF&} but I
-Dialogue: 0,0:00:14.98,0:00:15.08,Default,,0,0,0,,{\an5\bord1}cake, {\1c&H00FF00&}but{\1c&HFFFFFF&} I
-Dialogue: 0,0:00:15.08,0:00:15.18,Default,,0,0,0,,{\an5\bord1}cake, but {\1c&H00FF00&}I{\1c&HFFFFFF&}
-Dialogue: 0,0:00:15.18,0:00:15.36,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}didn't{\1c&HFFFFFF&} want to
-Dialogue: 0,0:00:15.36,0:00:15.52,Default,,0,0,0,,{\an5\bord1}didn't {\1c&H0000FF&}want{\1c&HFFFFFF&} to
-Dialogue: 0,0:00:15.52,0:00:15.66,Default,,0,0,0,,{\an5\bord1}didn't want {\1c&H0000FF&}to{\1c&HFFFFFF&}
-Dialogue: 0,0:00:15.66,0:00:15.82,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}because{\1c&HFFFFFF&} my
-Dialogue: 0,0:00:15.82,0:00:16.07,Default,,0,0,0,,{\an5\bord1}because {\1c&H00FFFF&}my{\1c&HFFFFFF&}
-Dialogue: 0,0:00:16.07,0:00:16.28,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}roommates{\1c&HFFFFFF&} are
-Dialogue: 0,0:00:16.28,0:00:16.60,Default,,0,0,0,,{\an5\bord1}roommates {\1c&H00FFFF&}are{\1c&HFFFFFF&}
-Dialogue: 0,0:00:16.60,0:00:16.76,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}constantly{\1c&HFFFFFF&}
-Dialogue: 0,0:00:16.76,0:00:17.08,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}eating{\1c&HFFFFFF&} my food
-Dialogue: 0,0:00:17.08,0:00:17.26,Default,,0,0,0,,{\an5\bord1}eating {\1c&H00FFFF&}my{\1c&HFFFFFF&} food
-Dialogue: 0,0:00:17.26,0:00:17.46,Default,,0,0,0,,{\an5\bord1}eating my {\1c&H00FFFF&}food{\1c&HFFFFFF&}
-Dialogue: 0,0:00:17.46,0:00:17.70,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}without{\1c&HFFFFFF&} asking.
-Dialogue: 0,0:00:17.70,0:00:18.06,Default,,0,0,0,,{\an5\bord1}without {\1c&H00FF00&}asking.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:18.98,0:00:19.10,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}My{\1c&HFFFFFF&} leftovers,
-Dialogue: 0,0:00:19.10,0:00:19.56,Default,,0,0,0,,{\an5\bord1}My {\1c&H00FF00&}leftovers,{\1c&HFFFFFF&}
-Dialogue: 0,0:00:19.80,0:00:20.02,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}oatmeal,{\1c&HFFFFFF&} eggs,
-Dialogue: 0,0:00:20.20,0:00:20.50,Default,,0,0,0,,{\an5\bord1}oatmeal, {\1c&H00FFFF&}eggs,{\1c&HFFFFFF&}
-Dialogue: 0,0:00:20.70,0:00:20.88,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}milk,{\1c&HFFFFFF&} bread
-Dialogue: 0,0:00:21.20,0:00:21.26,Default,,0,0,0,,{\an5\bord1}milk, {\1c&H0000FF&}bread{\1c&HFFFFFF&}
-Dialogue: 0,0:00:21.26,0:00:21.40,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}like{\1c&HFFFFFF&} they just
-Dialogue: 0,0:00:21.40,0:00:21.54,Default,,0,0,0,,{\an5\bord1}like {\1c&H00FF00&}they{\1c&HFFFFFF&} just
-Dialogue: 0,0:00:21.54,0:00:21.72,Default,,0,0,0,,{\an5\bord1}like they {\1c&H00FF00&}just{\1c&HFFFFFF&}
-Dialogue: 0,0:00:21.72,0:00:21.86,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}helped{\1c&HFFFFFF&}
-Dialogue: 0,0:00:21.86,0:00:22.20,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}themselves{\1c&HFFFFFF&} to
-Dialogue: 0,0:00:22.20,0:00:22.46,Default,,0,0,0,,{\an5\bord1}themselves {\1c&H00FFFF&}to{\1c&HFFFFFF&}
-Dialogue: 0,0:00:22.46,0:00:22.68,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}anything{\1c&HFFFFFF&} like
-Dialogue: 0,0:00:22.68,0:00:22.88,Default,,0,0,0,,{\an5\bord1}anything {\1c&H00FFFF&}like{\1c&HFFFFFF&}
-Dialogue: 0,0:00:22.88,0:00:23.06,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}I'm{\1c&HFFFFFF&} a fucking
-Dialogue: 0,0:00:23.06,0:00:23.16,Default,,0,0,0,,{\an5\bord1}I'm {\1c&H00FF00&}a{\1c&HFFFFFF&} fucking
-Dialogue: 0,0:00:23.16,0:00:23.36,Default,,0,0,0,,{\an5\bord1}I'm a {\1c&H00FF00&}fucking{\1c&HFFFFFF&}
-Dialogue: 0,0:00:23.36,0:00:23.58,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}grocery{\1c&HFFFFFF&} store.
-Dialogue: 0,0:00:23.58,0:00:24.02,Default,,0,0,0,,{\an5\bord1}grocery {\1c&H0000FF&}store.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:24.74,0:00:24.90,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}I{\1c&HFFFFFF&} am not even
-Dialogue: 0,0:00:24.90,0:00:25.02,Default,,0,0,0,,{\an5\bord1}I {\1c&H00FF00&}am{\1c&HFFFFFF&} not even
-Dialogue: 0,0:00:25.02,0:00:25.16,Default,,0,0,0,,{\an5\bord1}I am {\1c&H00FF00&}not{\1c&HFFFFFF&} even
-Dialogue: 0,0:00:25.16,0:00:25.34,Default,,0,0,0,,{\an5\bord1}I am not {\1c&H00FF00&}even{\1c&HFFFFFF&}
-Dialogue: 0,0:00:25.34,0:00:25.52,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}sure{\1c&HFFFFFF&} which
-Dialogue: 0,0:00:25.52,0:00:25.70,Default,,0,0,0,,{\an5\bord1}sure {\1c&H00FFFF&}which{\1c&HFFFFFF&}
-Dialogue: 0,0:00:25.70,0:00:25.90,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}roommate{\1c&HFFFFFF&} it is
-Dialogue: 0,0:00:25.90,0:00:26.06,Default,,0,0,0,,{\an5\bord1}roommate {\1c&H00FFFF&}it{\1c&HFFFFFF&} is
-Dialogue: 0,0:00:26.06,0:00:26.20,Default,,0,0,0,,{\an5\bord1}roommate it {\1c&H00FFFF&}is{\1c&HFFFFFF&}
-Dialogue: 0,0:00:26.20,0:00:26.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}because{\1c&HFFFFFF&} I
-Dialogue: 0,0:00:26.46,0:00:26.58,Default,,0,0,0,,{\an5\bord1}because {\1c&H00FFFF&}I{\1c&HFFFFFF&}
-Dialogue: 0,0:00:26.58,0:00:26.72,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}haven't{\1c&HFFFFFF&} caught
-Dialogue: 0,0:00:26.72,0:00:26.92,Default,,0,0,0,,{\an5\bord1}haven't {\1c&H00FFFF&}caught{\1c&HFFFFFF&}
-Dialogue: 0,0:00:26.92,0:00:27.16,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}anyone{\1c&HFFFFFF&} in the
-Dialogue: 0,0:00:27.16,0:00:27.34,Default,,0,0,0,,{\an5\bord1}anyone {\1c&H00FFFF&}in{\1c&HFFFFFF&} the
-Dialogue: 0,0:00:27.34,0:00:27.44,Default,,0,0,0,,{\an5\bord1}anyone in {\1c&H00FFFF&}the{\1c&HFFFFFF&}
-Dialogue: 0,0:00:27.44,0:00:27.68,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}act.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:28.25,0:00:28.58,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}I{\1c&HFFFFFF&} have spoken
-Dialogue: 0,0:00:28.58,0:00:28.76,Default,,0,0,0,,{\an5\bord1}I {\1c&H00FF00&}have{\1c&HFFFFFF&} spoken
-Dialogue: 0,0:00:28.76,0:00:28.98,Default,,0,0,0,,{\an5\bord1}I have {\1c&H00FF00&}spoken{\1c&HFFFFFF&}
-Dialogue: 0,0:00:28.98,0:00:29.10,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}to{\1c&HFFFFFF&} them calmly
-Dialogue: 0,0:00:29.10,0:00:29.28,Default,,0,0,0,,{\an5\bord1}to {\1c&H00FFFF&}them{\1c&HFFFFFF&} calmly
-Dialogue: 0,0:00:29.28,0:00:29.52,Default,,0,0,0,,{\an5\bord1}to them {\1c&H00FFFF&}calmly{\1c&HFFFFFF&}
-Dialogue: 0,0:00:29.52,0:00:29.84,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}multiple{\1c&HFFFFFF&} times,
-Dialogue: 0,0:00:29.84,0:00:30.22,Default,,0,0,0,,{\an5\bord1}multiple {\1c&H0000FF&}times,{\1c&HFFFFFF&}
-Dialogue: 0,0:00:30.34,0:00:30.38,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}but{\1c&HFFFFFF&} all of them
-Dialogue: 0,0:00:30.38,0:00:30.54,Default,,0,0,0,,{\an5\bord1}but {\1c&H00FFFF&}all{\1c&HFFFFFF&} of them
-Dialogue: 0,0:00:30.54,0:00:30.60,Default,,0,0,0,,{\an5\bord1}but all {\1c&H00FFFF&}of{\1c&HFFFFFF&} them
-Dialogue: 0,0:00:30.60,0:00:30.70,Default,,0,0,0,,{\an5\bord1}but all of {\1c&H00FFFF&}them{\1c&HFFFFFF&}
-Dialogue: 0,0:00:30.70,0:00:30.92,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}denied{\1c&HFFFFFF&} it.
-Dialogue: 0,0:00:30.92,0:00:31.08,Default,,0,0,0,,{\an5\bord1}denied {\1c&H00FF00&}it.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:32.06,0:00:32.24,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}Anyway,{\1c&HFFFFFF&} I just
-Dialogue: 0,0:00:32.32,0:00:32.50,Default,,0,0,0,,{\an5\bord1}Anyway, {\1c&H00FFFF&}I{\1c&HFFFFFF&} just
-Dialogue: 0,0:00:32.50,0:00:32.70,Default,,0,0,0,,{\an5\bord1}Anyway, I {\1c&H00FFFF&}just{\1c&HFFFFFF&}
-Dialogue: 0,0:00:32.70,0:00:32.78,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}cut{\1c&HFFFFFF&} a small
-Dialogue: 0,0:00:32.78,0:00:32.94,Default,,0,0,0,,{\an5\bord1}cut {\1c&H00FF00&}a{\1c&HFFFFFF&} small
-Dialogue: 0,0:00:32.94,0:00:33.10,Default,,0,0,0,,{\an5\bord1}cut a {\1c&H00FF00&}small{\1c&HFFFFFF&}
-Dialogue: 0,0:00:33.10,0:00:33.34,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}slice{\1c&HFFFFFF&} of my
-Dialogue: 0,0:00:33.34,0:00:33.48,Default,,0,0,0,,{\an5\bord1}slice {\1c&H0000FF&}of{\1c&HFFFFFF&} my
-Dialogue: 0,0:00:33.48,0:00:33.66,Default,,0,0,0,,{\an5\bord1}slice of {\1c&H0000FF&}my{\1c&HFFFFFF&}
-Dialogue: 0,0:00:33.66,0:00:33.78,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}cake{\1c&HFFFFFF&} for myself
-Dialogue: 0,0:00:33.78,0:00:33.94,Default,,0,0,0,,{\an5\bord1}cake {\1c&H00FFFF&}for{\1c&HFFFFFF&} myself
-Dialogue: 0,0:00:33.94,0:00:34.34,Default,,0,0,0,,{\an5\bord1}cake for {\1c&H00FFFF&}myself{\1c&HFFFFFF&}
-Dialogue: 0,0:00:34.34,0:00:34.48,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}and{\1c&HFFFFFF&} put the
-Dialogue: 0,0:00:34.48,0:00:34.60,Default,,0,0,0,,{\an5\bord1}and {\1c&H00FFFF&}put{\1c&HFFFFFF&} the
-Dialogue: 0,0:00:34.60,0:00:34.74,Default,,0,0,0,,{\an5\bord1}and put {\1c&H00FFFF&}the{\1c&HFFFFFF&}
-Dialogue: 0,0:00:34.74,0:00:34.88,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}rest{\1c&HFFFFFF&} in the
-Dialogue: 0,0:00:34.88,0:00:35.06,Default,,0,0,0,,{\an5\bord1}rest {\1c&H0000FF&}in{\1c&HFFFFFF&} the
-Dialogue: 0,0:00:35.06,0:00:35.16,Default,,0,0,0,,{\an5\bord1}rest in {\1c&H0000FF&}the{\1c&HFFFFFF&}
-Dialogue: 0,0:00:35.16,0:00:35.42,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}fridge.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:36.30,0:00:36.36,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}I{\1c&HFFFFFF&} made it a
-Dialogue: 0,0:00:36.36,0:00:36.54,Default,,0,0,0,,{\an5\bord1}I {\1c&H0000FF&}made{\1c&HFFFFFF&} it a
-Dialogue: 0,0:00:36.54,0:00:36.70,Default,,0,0,0,,{\an5\bord1}I made {\1c&H0000FF&}it{\1c&HFFFFFF&} a
-Dialogue: 0,0:00:36.70,0:00:36.78,Default,,0,0,0,,{\an5\bord1}I made it {\1c&H0000FF&}a{\1c&HFFFFFF&}
-Dialogue: 0,0:00:36.78,0:00:36.90,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}point{\1c&HFFFFFF&} to tell
-Dialogue: 0,0:00:36.90,0:00:37.04,Default,,0,0,0,,{\an5\bord1}point {\1c&H0000FF&}to{\1c&HFFFFFF&} tell
-Dialogue: 0,0:00:37.04,0:00:37.26,Default,,0,0,0,,{\an5\bord1}point to {\1c&H0000FF&}tell{\1c&HFFFFFF&}
-Dialogue: 0,0:00:37.26,0:00:37.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}all{\1c&HFFFFFF&} of my
-Dialogue: 0,0:00:37.46,0:00:37.52,Default,,0,0,0,,{\an5\bord1}all {\1c&H00FFFF&}of{\1c&HFFFFFF&} my
-Dialogue: 0,0:00:37.52,0:00:37.68,Default,,0,0,0,,{\an5\bord1}all of {\1c&H00FFFF&}my{\1c&HFFFFFF&}
-Dialogue: 0,0:00:37.68,0:00:37.94,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}roommates{\1c&HFFFFFF&} that
-Dialogue: 0,0:00:37.94,0:00:38.12,Default,,0,0,0,,{\an5\bord1}roommates {\1c&H0000FF&}that{\1c&HFFFFFF&}
-Dialogue: 0,0:00:38.12,0:00:38.30,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}the{\1c&HFFFFFF&} cake in the
-Dialogue: 0,0:00:38.30,0:00:38.34,Default,,0,0,0,,{\an5\bord1}the {\1c&H00FFFF&}cake{\1c&HFFFFFF&} in the
-Dialogue: 0,0:00:38.34,0:00:38.48,Default,,0,0,0,,{\an5\bord1}the cake {\1c&H00FFFF&}in{\1c&HFFFFFF&} the
-Dialogue: 0,0:00:38.48,0:00:38.60,Default,,0,0,0,,{\an5\bord1}the cake in {\1c&H00FFFF&}the{\1c&HFFFFFF&}
-Dialogue: 0,0:00:38.60,0:00:38.76,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}fridge{\1c&HFFFFFF&} belongs
-Dialogue: 0,0:00:38.76,0:00:39.02,Default,,0,0,0,,{\an5\bord1}fridge {\1c&H00FFFF&}belongs{\1c&HFFFFFF&}
-Dialogue: 0,0:00:39.02,0:00:39.22,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}to{\1c&HFFFFFF&} me and to
-Dialogue: 0,0:00:39.22,0:00:39.46,Default,,0,0,0,,{\an5\bord1}to {\1c&H00FFFF&}me{\1c&HFFFFFF&} and to
-Dialogue: 0,0:00:39.46,0:00:39.60,Default,,0,0,0,,{\an5\bord1}to me {\1c&H00FFFF&}and{\1c&HFFFFFF&} to
-Dialogue: 0,0:00:39.60,0:00:39.70,Default,,0,0,0,,{\an5\bord1}to me and {\1c&H00FFFF&}to{\1c&HFFFFFF&}
-Dialogue: 0,0:00:39.70,0:00:39.84,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}please{\1c&HFFFFFF&} don't
-Dialogue: 0,0:00:39.84,0:00:40.04,Default,,0,0,0,,{\an5\bord1}please {\1c&H00FF00&}don't{\1c&HFFFFFF&}
-Dialogue: 0,0:00:40.04,0:00:40.20,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}touch{\1c&HFFFFFF&} it.
-Dialogue: 0,0:00:40.20,0:00:40.52,Default,,0,0,0,,{\an5\bord1}touch {\1c&H00FF00&}it.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:41.24,0:00:41.42,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}Later{\1c&HFFFFFF&} that
-Dialogue: 0,0:00:41.42,0:00:41.62,Default,,0,0,0,,{\an5\bord1}Later {\1c&H0000FF&}that{\1c&HFFFFFF&}
-Dialogue: 0,0:00:41.62,0:00:41.84,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}night,{\1c&HFFFFFF&} I woke
-Dialogue: 0,0:00:41.84,0:00:41.98,Default,,0,0,0,,{\an5\bord1}night, {\1c&H00FF00&}I{\1c&HFFFFFF&} woke
-Dialogue: 0,0:00:41.98,0:00:42.12,Default,,0,0,0,,{\an5\bord1}night, I {\1c&H00FF00&}woke{\1c&HFFFFFF&}
-Dialogue: 0,0:00:42.12,0:00:42.28,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}up{\1c&HFFFFFF&} and decided
-Dialogue: 0,0:00:42.28,0:00:42.36,Default,,0,0,0,,{\an5\bord1}up {\1c&H00FFFF&}and{\1c&HFFFFFF&} decided
-Dialogue: 0,0:00:42.36,0:00:42.60,Default,,0,0,0,,{\an5\bord1}up and {\1c&H00FFFF&}decided{\1c&HFFFFFF&}
-Dialogue: 0,0:00:42.60,0:00:42.78,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}to{\1c&HFFFFFF&} go get
-Dialogue: 0,0:00:42.78,0:00:42.90,Default,,0,0,0,,{\an5\bord1}to {\1c&H0000FF&}go{\1c&HFFFFFF&} get
-Dialogue: 0,0:00:42.90,0:00:43.02,Default,,0,0,0,,{\an5\bord1}to go {\1c&H0000FF&}get{\1c&HFFFFFF&}
-Dialogue: 0,0:00:43.02,0:00:43.28,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}myself{\1c&HFFFFFF&} another
-Dialogue: 0,0:00:43.28,0:00:43.60,Default,,0,0,0,,{\an5\bord1}myself {\1c&H0000FF&}another{\1c&HFFFFFF&}
-Dialogue: 0,0:00:43.60,0:00:43.94,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}slice{\1c&HFFFFFF&} and found
-Dialogue: 0,0:00:43.94,0:00:44.14,Default,,0,0,0,,{\an5\bord1}slice {\1c&H00FFFF&}and{\1c&HFFFFFF&} found
-Dialogue: 0,0:00:44.14,0:00:44.32,Default,,0,0,0,,{\an5\bord1}slice and {\1c&H00FFFF&}found{\1c&HFFFFFF&}
-Dialogue: 0,0:00:44.32,0:00:44.50,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}half{\1c&HFFFFFF&} the cake
-Dialogue: 0,0:00:44.50,0:00:44.64,Default,,0,0,0,,{\an5\bord1}half {\1c&H0000FF&}the{\1c&HFFFFFF&} cake
-Dialogue: 0,0:00:44.64,0:00:44.76,Default,,0,0,0,,{\an5\bord1}half the {\1c&H0000FF&}cake{\1c&HFFFFFF&}
-Dialogue: 0,0:00:44.76,0:00:45.02,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}gone.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:45.82,0:00:45.98,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}I{\1c&HFFFFFF&} am usually a
-Dialogue: 0,0:00:45.98,0:00:46.14,Default,,0,0,0,,{\an5\bord1}I {\1c&H00FFFF&}am{\1c&HFFFFFF&} usually a
-Dialogue: 0,0:00:46.14,0:00:46.38,Default,,0,0,0,,{\an5\bord1}I am {\1c&H00FFFF&}usually{\1c&HFFFFFF&} a
-Dialogue: 0,0:00:46.38,0:00:46.56,Default,,0,0,0,,{\an5\bord1}I am usually {\1c&H00FFFF&}a{\1c&HFFFFFF&}
-Dialogue: 0,0:00:46.56,0:00:46.72,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}common{\1c&HFFFFFF&} rational
-Dialogue: 0,0:00:46.72,0:00:47.06,Default,,0,0,0,,{\an5\bord1}common {\1c&H0000FF&}rational{\1c&HFFFFFF&}
-Dialogue: 0,0:00:47.06,0:00:47.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}person,{\1c&HFFFFFF&} but I
-Dialogue: 0,0:00:47.46,0:00:47.60,Default,,0,0,0,,{\an5\bord1}person, {\1c&H00FFFF&}but{\1c&HFFFFFF&} I
-Dialogue: 0,0:00:47.60,0:00:47.76,Default,,0,0,0,,{\an5\bord1}person, but {\1c&H00FFFF&}I{\1c&HFFFFFF&}
-Dialogue: 0,0:00:47.76,0:00:47.90,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}just{\1c&HFFFFFF&} completely
-Dialogue: 0,0:00:47.90,0:00:48.24,Default,,0,0,0,,{\an5\bord1}just {\1c&H0000FF&}completely{\1c&HFFFFFF&}
-Dialogue: 0,0:00:48.24,0:00:48.50,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}lost{\1c&HFFFFFF&} it because
-Dialogue: 0,0:00:48.50,0:00:48.68,Default,,0,0,0,,{\an5\bord1}lost {\1c&H00FFFF&}it{\1c&HFFFFFF&} because
-Dialogue: 0,0:00:48.68,0:00:48.92,Default,,0,0,0,,{\an5\bord1}lost it {\1c&H00FFFF&}because{\1c&HFFFFFF&}
-Dialogue: 0,0:00:48.92,0:00:49.04,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}it{\1c&HFFFFFF&} felt like a
-Dialogue: 0,0:00:49.04,0:00:49.18,Default,,0,0,0,,{\an5\bord1}it {\1c&H0000FF&}felt{\1c&HFFFFFF&} like a
-Dialogue: 0,0:00:49.18,0:00:49.34,Default,,0,0,0,,{\an5\bord1}it felt {\1c&H0000FF&}like{\1c&HFFFFFF&} a
-Dialogue: 0,0:00:49.34,0:00:49.44,Default,,0,0,0,,{\an5\bord1}it felt like {\1c&H0000FF&}a{\1c&HFFFFFF&}
-Dialogue: 0,0:00:49.44,0:00:49.56,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}fuck{\1c&HFFFFFF&} you to me.
-Dialogue: 0,0:00:49.56,0:00:49.68,Default,,0,0,0,,{\an5\bord1}fuck {\1c&H00FFFF&}you{\1c&HFFFFFF&} to me.
-Dialogue: 0,0:00:49.68,0:00:49.78,Default,,0,0,0,,{\an5\bord1}fuck you {\1c&H00FFFF&}to{\1c&HFFFFFF&} me.
-Dialogue: 0,0:00:49.78,0:00:50.16,Default,,0,0,0,,{\an5\bord1}fuck you to {\1c&H00FFFF&}me.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:50.68,0:00:50.84,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}It{\1c&HFFFFFF&} was in the
-Dialogue: 0,0:00:50.84,0:00:50.98,Default,,0,0,0,,{\an5\bord1}It {\1c&H00FFFF&}was{\1c&HFFFFFF&} in the
-Dialogue: 0,0:00:50.98,0:00:51.10,Default,,0,0,0,,{\an5\bord1}It was {\1c&H00FFFF&}in{\1c&HFFFFFF&} the
-Dialogue: 0,0:00:51.10,0:00:51.24,Default,,0,0,0,,{\an5\bord1}It was in {\1c&H00FFFF&}the{\1c&HFFFFFF&}
-Dialogue: 0,0:00:51.24,0:00:51.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}AMS,{\1c&HFFFFFF&} but I
-Dialogue: 0,0:00:51.60,0:00:51.72,Default,,0,0,0,,{\an5\bord1}AMS, {\1c&H00FFFF&}but{\1c&HFFFFFF&} I
-Dialogue: 0,0:00:51.72,0:00:51.84,Default,,0,0,0,,{\an5\bord1}AMS, but {\1c&H00FFFF&}I{\1c&HFFFFFF&}
-Dialogue: 0,0:00:51.84,0:00:52.00,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}knocked{\1c&HFFFFFF&} on all
-Dialogue: 0,0:00:52.00,0:00:52.14,Default,,0,0,0,,{\an5\bord1}knocked {\1c&H00FF00&}on{\1c&HFFFFFF&} all
-Dialogue: 0,0:00:52.14,0:00:52.24,Default,,0,0,0,,{\an5\bord1}knocked on {\1c&H00FF00&}all{\1c&HFFFFFF&}
-Dialogue: 0,0:00:52.24,0:00:52.36,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}their{\1c&HFFFFFF&} doors and
-Dialogue: 0,0:00:52.36,0:00:52.64,Default,,0,0,0,,{\an5\bord1}their {\1c&H00FF00&}doors{\1c&HFFFFFF&} and
-Dialogue: 0,0:00:52.64,0:00:52.90,Default,,0,0,0,,{\an5\bord1}their doors {\1c&H00FF00&}and{\1c&HFFFFFF&}
-Dialogue: 0,0:00:52.90,0:00:53.00,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}yelled{\1c&HFFFFFF&} at them
-Dialogue: 0,0:00:53.00,0:00:53.12,Default,,0,0,0,,{\an5\bord1}yelled {\1c&H0000FF&}at{\1c&HFFFFFF&} them
-Dialogue: 0,0:00:53.12,0:00:53.20,Default,,0,0,0,,{\an5\bord1}yelled at {\1c&H0000FF&}them{\1c&HFFFFFF&}
-Dialogue: 0,0:00:53.20,0:00:53.34,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}to{\1c&HFFFFFF&} come out.
-Dialogue: 0,0:00:53.34,0:00:53.48,Default,,0,0,0,,{\an5\bord1}to {\1c&H00FF00&}come{\1c&HFFFFFF&} out.
-Dialogue: 0,0:00:53.48,0:00:53.82,Default,,0,0,0,,{\an5\bord1}to come {\1c&H00FF00&}out.{\1c&HFFFFFF&}
-Dialogue: 0,0:00:54.24,0:00:54.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}I{\1c&HFFFFFF&} told them
-Dialogue: 0,0:00:54.60,0:00:54.80,Default,,0,0,0,,{\an5\bord1}I {\1c&H00FFFF&}told{\1c&HFFFFFF&} them
-Dialogue: 0,0:00:54.80,0:00:54.98,Default,,0,0,0,,{\an5\bord1}I told {\1c&H00FFFF&}them{\1c&HFFFFFF&}
-Dialogue: 0,0:00:54.98,0:00:55.06,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}that{\1c&HFFFFFF&} I'm not
-Dialogue: 0,0:00:55.06,0:00:55.14,Default,,0,0,0,,{\an5\bord1}that {\1c&H00FFFF&}I'm{\1c&HFFFFFF&} not
-Dialogue: 0,0:00:55.14,0:00:55.30,Default,,0,0,0,,{\an5\bord1}that I'm {\1c&H00FFFF&}not{\1c&HFFFFFF&}
-Dialogue: 0,0:00:55.30,0:00:55.48,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}going{\1c&HFFFFFF&} anywhere
-Dialogue: 0,0:00:55.48,0:00:55.78,Default,,0,0,0,,{\an5\bord1}going {\1c&H00FF00&}anywhere{\1c&HFFFFFF&}
-Dialogue: 0,0:00:55.78,0:00:56.02,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}until{\1c&HFFFFFF&} whoever
-Dialogue: 0,0:00:56.02,0:00:56.30,Default,,0,0,0,,{\an5\bord1}until {\1c&H0000FF&}whoever{\1c&HFFFFFF&}
-Dialogue: 0,0:00:56.30,0:00:56.48,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}ate{\1c&HFFFFFF&} my cake
-Dialogue: 0,0:00:56.48,0:00:56.68,Default,,0,0,0,,{\an5\bord1}ate {\1c&H0000FF&}my{\1c&HFFFFFF&} cake
-Dialogue: 0,0:00:56.68,0:00:56.80,Default,,0,0,0,,{\an5\bord1}ate my {\1c&H0000FF&}cake{\1c&HFFFFFF&}
-Dialogue: 0,0:00:56.80,0:00:56.94,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}owns{\1c&HFFFFFF&} up to it
-Dialogue: 0,0:00:56.94,0:00:57.12,Default,,0,0,0,,{\an5\bord1}owns {\1c&H00FF00&}up{\1c&HFFFFFF&} to it
-Dialogue: 0,0:00:57.12,0:00:57.24,Default,,0,0,0,,{\an5\bord1}owns up {\1c&H00FF00&}to{\1c&HFFFFFF&} it
-Dialogue: 0,0:00:57.24,0:00:57.42,Default,,0,0,0,,{\an5\bord1}owns up to {\1c&H00FF00&}it{\1c&HFFFFFF&}
-Dialogue: 0,0:00:57.42,0:00:57.48,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}and{\1c&HFFFFFF&} I'm going
-Dialogue: 0,0:00:57.48,0:00:57.64,Default,,0,0,0,,{\an5\bord1}and {\1c&H00FF00&}I'm{\1c&HFFFFFF&} going
-Dialogue: 0,0:00:57.64,0:00:57.76,Default,,0,0,0,,{\an5\bord1}and I'm {\1c&H00FF00&}going{\1c&HFFFFFF&}
-Dialogue: 0,0:00:57.76,0:00:57.90,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}to{\1c&HFFFFFF&} kick his ass
-Dialogue: 0,0:00:57.90,0:00:58.02,Default,,0,0,0,,{\an5\bord1}to {\1c&H00FF00&}kick{\1c&HFFFFFF&} his ass
-Dialogue: 0,0:00:58.02,0:00:58.20,Default,,0,0,0,,{\an5\bord1}to kick {\1c&H00FF00&}his{\1c&HFFFFFF&} ass
-Dialogue: 0,0:00:58.20,0:00:58.40,Default,,0,0,0,,{\an5\bord1}to kick his {\1c&H00FF00&}ass{\1c&HFFFFFF&}
-Dialogue: 0,0:00:58.40,0:00:58.62,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}because{\1c&HFFFFFF&} it's
-Dialogue: 0,0:00:58.62,0:00:58.84,Default,,0,0,0,,{\an5\bord1}because {\1c&H0000FF&}it's{\1c&HFFFFFF&}
-Dialogue: 0,0:00:58.84,0:00:59.12,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}probably{\1c&HFFFFFF&} the
-Dialogue: 0,0:00:59.12,0:00:59.32,Default,,0,0,0,,{\an5\bord1}probably {\1c&H00FFFF&}the{\1c&HFFFFFF&}
-Dialogue: 0,0:00:59.32,0:00:59.48,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}same{\1c&HFFFFFF&} asshole
-Dialogue: 0,0:00:59.48,0:00:59.76,Default,,0,0,0,,{\an5\bord1}same {\1c&H00FFFF&}asshole{\1c&HFFFFFF&}
-Dialogue: 0,0:00:59.76,0:00:59.96,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}who{\1c&HFFFFFF&} won't stop
-Dialogue: 0,0:00:59.96,0:01:00.16,Default,,0,0,0,,{\an5\bord1}who {\1c&H00FFFF&}won't{\1c&HFFFFFF&} stop
-Dialogue: 0,0:01:00.16,0:01:00.34,Default,,0,0,0,,{\an5\bord1}who won't {\1c&H00FFFF&}stop{\1c&HFFFFFF&}
-Dialogue: 0,0:01:00.34,0:01:00.48,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}eating{\1c&HFFFFFF&} my food
-Dialogue: 0,0:01:00.48,0:01:00.72,Default,,0,0,0,,{\an5\bord1}eating {\1c&H00FF00&}my{\1c&HFFFFFF&} food
-Dialogue: 0,0:01:00.72,0:01:00.92,Default,,0,0,0,,{\an5\bord1}eating my {\1c&H00FF00&}food{\1c&HFFFFFF&}
-Dialogue: 0,0:01:00.92,0:01:01.12,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}despite{\1c&HFFFFFF&} me
-Dialogue: 0,0:01:01.12,0:01:01.38,Default,,0,0,0,,{\an5\bord1}despite {\1c&H0000FF&}me{\1c&HFFFFFF&}
-Dialogue: 0,0:01:01.38,0:01:01.56,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}asking{\1c&HFFFFFF&} them
-Dialogue: 0,0:01:01.56,0:01:01.80,Default,,0,0,0,,{\an5\bord1}asking {\1c&H0000FF&}them{\1c&HFFFFFF&}
-Dialogue: 0,0:01:01.80,0:01:02.00,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}multiple{\1c&HFFFFFF&} times
-Dialogue: 0,0:01:02.00,0:01:02.30,Default,,0,0,0,,{\an5\bord1}multiple {\1c&H00FF00&}times{\1c&HFFFFFF&}
-Dialogue: 0,0:01:02.30,0:01:02.48,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}to{\1c&HFFFFFF&} stop.
-Dialogue: 0,0:01:02.48,0:01:02.80,Default,,0,0,0,,{\an5\bord1}to {\1c&H00FFFF&}stop.{\1c&HFFFFFF&}
-Dialogue: 0,0:01:03.62,0:01:03.66,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}I{\1c&HFFFFFF&} was bluffing
-Dialogue: 0,0:01:03.66,0:01:03.84,Default,,0,0,0,,{\an5\bord1}I {\1c&H0000FF&}was{\1c&HFFFFFF&} bluffing
-Dialogue: 0,0:01:03.84,0:01:04.16,Default,,0,0,0,,{\an5\bord1}I was {\1c&H0000FF&}bluffing{\1c&HFFFFFF&}
-Dialogue: 0,0:01:04.16,0:01:04.40,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}because{\1c&HFFFFFF&} I have
-Dialogue: 0,0:01:04.40,0:01:04.54,Default,,0,0,0,,{\an5\bord1}because {\1c&H00FF00&}I{\1c&HFFFFFF&} have
-Dialogue: 0,0:01:04.54,0:01:04.66,Default,,0,0,0,,{\an5\bord1}because I {\1c&H00FF00&}have{\1c&HFFFFFF&}
-Dialogue: 0,0:01:04.66,0:01:04.90,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}never{\1c&HFFFFFF&} actually
-Dialogue: 0,0:01:04.90,0:01:05.26,Default,,0,0,0,,{\an5\bord1}never {\1c&H0000FF&}actually{\1c&HFFFFFF&}
-Dialogue: 0,0:01:05.26,0:01:05.42,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}kicked{\1c&HFFFFFF&} anyone's
-Dialogue: 0,0:01:05.42,0:01:05.90,Default,,0,0,0,,{\an5\bord1}kicked {\1c&H0000FF&}anyone's{\1c&HFFFFFF&}
-Dialogue: 0,0:01:05.90,0:01:06.16,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}ass{\1c&HFFFFFF&} and I was
-Dialogue: 0,0:01:06.16,0:01:06.28,Default,,0,0,0,,{\an5\bord1}ass {\1c&H00FF00&}and{\1c&HFFFFFF&} I was
-Dialogue: 0,0:01:06.28,0:01:06.38,Default,,0,0,0,,{\an5\bord1}ass and {\1c&H00FF00&}I{\1c&HFFFFFF&} was
-Dialogue: 0,0:01:06.38,0:01:06.50,Default,,0,0,0,,{\an5\bord1}ass and I {\1c&H00FF00&}was{\1c&HFFFFFF&}
-Dialogue: 0,0:01:06.50,0:01:06.68,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}hoping{\1c&HFFFFFF&} no one
-Dialogue: 0,0:01:06.68,0:01:06.88,Default,,0,0,0,,{\an5\bord1}hoping {\1c&H00FFFF&}no{\1c&HFFFFFF&} one
-Dialogue: 0,0:01:06.88,0:01:07.00,Default,,0,0,0,,{\an5\bord1}hoping no {\1c&H00FFFF&}one{\1c&HFFFFFF&}
-Dialogue: 0,0:01:07.00,0:01:07.12,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}took{\1c&HFFFFFF&} me up on
-Dialogue: 0,0:01:07.12,0:01:07.28,Default,,0,0,0,,{\an5\bord1}took {\1c&H0000FF&}me{\1c&HFFFFFF&} up on
-Dialogue: 0,0:01:07.28,0:01:07.40,Default,,0,0,0,,{\an5\bord1}took me {\1c&H0000FF&}up{\1c&HFFFFFF&} on
-Dialogue: 0,0:01:07.40,0:01:07.50,Default,,0,0,0,,{\an5\bord1}took me up {\1c&H0000FF&}on{\1c&HFFFFFF&}
-Dialogue: 0,0:01:07.50,0:01:07.72,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}it.{\1c&HFFFFFF&} I was just
-Dialogue: 0,0:01:07.72,0:01:07.82,Default,,0,0,0,,{\an5\bord1}it. {\1c&H0000FF&}I{\1c&HFFFFFF&} was just
-Dialogue: 0,0:01:07.82,0:01:07.96,Default,,0,0,0,,{\an5\bord1}it. I {\1c&H0000FF&}was{\1c&HFFFFFF&} just
-Dialogue: 0,0:01:07.96,0:01:08.16,Default,,0,0,0,,{\an5\bord1}it. I was {\1c&H0000FF&}just{\1c&HFFFFFF&}
-Dialogue: 0,0:01:08.16,0:01:08.54,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}angry.{\1c&HFFFFFF&}
-Dialogue: 0,0:01:09.30,0:01:09.42,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}I{\1c&HFFFFFF&} kept ranting
-Dialogue: 0,0:01:09.42,0:01:09.60,Default,,0,0,0,,{\an5\bord1}I {\1c&H0000FF&}kept{\1c&HFFFFFF&} ranting
-Dialogue: 0,0:01:09.60,0:01:09.88,Default,,0,0,0,,{\an5\bord1}I kept {\1c&H0000FF&}ranting{\1c&HFFFFFF&}
-Dialogue: 0,0:01:09.88,0:01:10.20,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}loudly{\1c&HFFFFFF&} about
-Dialogue: 0,0:01:10.20,0:01:10.48,Default,,0,0,0,,{\an5\bord1}loudly {\1c&H00FFFF&}about{\1c&HFFFFFF&}
-Dialogue: 0,0:01:10.48,0:01:10.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}how{\1c&HFFFFFF&} fed up I
-Dialogue: 0,0:01:10.60,0:01:10.72,Default,,0,0,0,,{\an5\bord1}how {\1c&H00FF00&}fed{\1c&HFFFFFF&} up I
-Dialogue: 0,0:01:10.72,0:01:10.88,Default,,0,0,0,,{\an5\bord1}how fed {\1c&H00FF00&}up{\1c&HFFFFFF&} I
-Dialogue: 0,0:01:10.88,0:01:10.96,Default,,0,0,0,,{\an5\bord1}how fed up {\1c&H00FF00&}I{\1c&HFFFFFF&}
-Dialogue: 0,0:01:10.96,0:01:11.12,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}was{\1c&HFFFFFF&} with their
-Dialogue: 0,0:01:11.12,0:01:11.24,Default,,0,0,0,,{\an5\bord1}was {\1c&H0000FF&}with{\1c&HFFFFFF&} their
-Dialogue: 0,0:01:11.24,0:01:11.40,Default,,0,0,0,,{\an5\bord1}was with {\1c&H0000FF&}their{\1c&HFFFFFF&}
-Dialogue: 0,0:01:11.40,0:01:11.56,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}feeding,{\1c&HFFFFFF&} but
-Dialogue: 0,0:01:11.84,0:01:11.84,Default,,0,0,0,,{\an5\bord1}feeding, {\1c&H00FFFF&}but{\1c&HFFFFFF&}
-Dialogue: 0,0:01:11.84,0:01:12.00,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}only{\1c&HFFFFFF&} one of
-Dialogue: 0,0:01:12.00,0:01:12.18,Default,,0,0,0,,{\an5\bord1}only {\1c&H00FF00&}one{\1c&HFFFFFF&} of
-Dialogue: 0,0:01:12.18,0:01:12.26,Default,,0,0,0,,{\an5\bord1}only one {\1c&H00FF00&}of{\1c&HFFFFFF&}
-Dialogue: 0,0:01:12.26,0:01:12.36,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}them{\1c&HFFFFFF&} came out.
-Dialogue: 0,0:01:12.36,0:01:12.58,Default,,0,0,0,,{\an5\bord1}them {\1c&H0000FF&}came{\1c&HFFFFFF&} out.
-Dialogue: 0,0:01:12.58,0:01:12.98,Default,,0,0,0,,{\an5\bord1}them came {\1c&H0000FF&}out.{\1c&HFFFFFF&}
-Dialogue: 0,0:01:13.56,0:01:13.74,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}He{\1c&HFFFFFF&} told me it
-Dialogue: 0,0:01:13.74,0:01:13.90,Default,,0,0,0,,{\an5\bord1}He {\1c&H00FFFF&}told{\1c&HFFFFFF&} me it
-Dialogue: 0,0:01:13.90,0:01:14.06,Default,,0,0,0,,{\an5\bord1}He told {\1c&H00FFFF&}me{\1c&HFFFFFF&} it
-Dialogue: 0,0:01:14.06,0:01:14.14,Default,,0,0,0,,{\an5\bord1}He told me {\1c&H00FFFF&}it{\1c&HFFFFFF&}
-Dialogue: 0,0:01:14.14,0:01:14.36,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}wasn't{\1c&HFFFFFF&} him, but
-Dialogue: 0,0:01:14.36,0:01:14.54,Default,,0,0,0,,{\an5\bord1}wasn't {\1c&H0000FF&}him,{\1c&HFFFFFF&} but
-Dialogue: 0,0:01:14.58,0:01:14.66,Default,,0,0,0,,{\an5\bord1}wasn't him, {\1c&H0000FF&}but{\1c&HFFFFFF&}
-Dialogue: 0,0:01:14.66,0:01:14.86,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}there{\1c&HFFFFFF&} was no
-Dialogue: 0,0:01:14.86,0:01:14.92,Default,,0,0,0,,{\an5\bord1}there {\1c&H00FF00&}was{\1c&HFFFFFF&} no
-Dialogue: 0,0:01:14.92,0:01:15.08,Default,,0,0,0,,{\an5\bord1}there was {\1c&H00FF00&}no{\1c&HFFFFFF&}
-Dialogue: 0,0:01:15.08,0:01:15.28,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}need{\1c&HFFFFFF&} for me to
-Dialogue: 0,0:01:15.28,0:01:15.38,Default,,0,0,0,,{\an5\bord1}need {\1c&H00FF00&}for{\1c&HFFFFFF&} me to
-Dialogue: 0,0:01:15.38,0:01:15.50,Default,,0,0,0,,{\an5\bord1}need for {\1c&H00FF00&}me{\1c&HFFFFFF&} to
-Dialogue: 0,0:01:15.50,0:01:15.60,Default,,0,0,0,,{\an5\bord1}need for me {\1c&H00FF00&}to{\1c&HFFFFFF&}
-Dialogue: 0,0:01:15.60,0:01:15.76,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}act{\1c&HFFFFFF&} like this
-Dialogue: 0,0:01:15.76,0:01:15.96,Default,,0,0,0,,{\an5\bord1}act {\1c&H00FF00&}like{\1c&HFFFFFF&} this
-Dialogue: 0,0:01:15.96,0:01:16.12,Default,,0,0,0,,{\an5\bord1}act like {\1c&H00FF00&}this{\1c&HFFFFFF&}
-Dialogue: 0,0:01:16.12,0:01:16.34,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}over{\1c&HFFFFFF&} cake which
-Dialogue: 0,0:01:16.34,0:01:16.50,Default,,0,0,0,,{\an5\bord1}over {\1c&H00FF00&}cake{\1c&HFFFFFF&} which
-Dialogue: 0,0:01:16.50,0:01:16.74,Default,,0,0,0,,{\an5\bord1}over cake {\1c&H00FF00&}which{\1c&HFFFFFF&}
-Dialogue: 0,0:01:16.74,0:01:16.98,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}just{\1c&HFFFFFF&} pissed me
-Dialogue: 0,0:01:16.98,0:01:17.10,Default,,0,0,0,,{\an5\bord1}just {\1c&H00FFFF&}pissed{\1c&HFFFFFF&} me
-Dialogue: 0,0:01:17.10,0:01:17.26,Default,,0,0,0,,{\an5\bord1}just pissed {\1c&H00FFFF&}me{\1c&HFFFFFF&}
-Dialogue: 0,0:01:17.26,0:01:17.42,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}off{\1c&HFFFFFF&} more.
-Dialogue: 0,0:01:17.42,0:01:17.88,Default,,0,0,0,,{\an5\bord1}off {\1c&H00FFFF&}more.{\1c&HFFFFFF&}
-Dialogue: 0,0:01:18.72,0:01:18.90,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}Eventually{\1c&HFFFFFF&} the
-Dialogue: 0,0:01:18.90,0:01:19.14,Default,,0,0,0,,{\an5\bord1}Eventually {\1c&H00FF00&}the{\1c&HFFFFFF&}
-Dialogue: 0,0:01:19.14,0:01:19.28,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}cops{\1c&HFFFFFF&} came,
-Dialogue: 0,0:01:19.28,0:01:19.66,Default,,0,0,0,,{\an5\bord1}cops {\1c&H00FF00&}came,{\1c&HFFFFFF&}
-Dialogue: 0,0:01:19.74,0:01:20.00,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}apparently{\1c&HFFFFFF&} a
-Dialogue: 0,0:01:20.00,0:01:20.20,Default,,0,0,0,,{\an5\bord1}apparently {\1c&H0000FF&}a{\1c&HFFFFFF&}
-Dialogue: 0,0:01:20.20,0:01:20.34,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}neighbor{\1c&HFFFFFF&} had
-Dialogue: 0,0:01:20.34,0:01:20.60,Default,,0,0,0,,{\an5\bord1}neighbor {\1c&H00FFFF&}had{\1c&HFFFFFF&}
-Dialogue: 0,0:01:20.60,0:01:20.82,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}complained{\1c&HFFFFFF&}
-Dialogue: 0,0:01:20.82,0:01:21.06,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}about{\1c&HFFFFFF&} the
-Dialogue: 0,0:01:21.06,0:01:21.22,Default,,0,0,0,,{\an5\bord1}about {\1c&H0000FF&}the{\1c&HFFFFFF&}
-Dialogue: 0,0:01:21.22,0:01:21.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}noise.{\1c&HFFFFFF&}
-Dialogue: 0,0:01:22.12,0:01:22.48,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}The{\1c&HFFFFFF&} other
-Dialogue: 0,0:01:22.48,0:01:22.68,Default,,0,0,0,,{\an5\bord1}The {\1c&H00FF00&}other{\1c&HFFFFFF&}
-Dialogue: 0,0:01:22.68,0:01:22.96,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}roommates{\1c&HFFFFFF&} only
-Dialogue: 0,0:01:22.96,0:01:23.24,Default,,0,0,0,,{\an5\bord1}roommates {\1c&H00FF00&}only{\1c&HFFFFFF&}
-Dialogue: 0,0:01:23.24,0:01:23.40,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}came{\1c&HFFFFFF&} out then.
-Dialogue: 0,0:01:23.40,0:01:23.56,Default,,0,0,0,,{\an5\bord1}came {\1c&H0000FF&}out{\1c&HFFFFFF&} then.
-Dialogue: 0,0:01:23.56,0:01:23.74,Default,,0,0,0,,{\an5\bord1}came out {\1c&H0000FF&}then.{\1c&HFFFFFF&}
-Dialogue: 0,0:01:24.66,0:01:24.76,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}The{\1c&HFFFFFF&} cops just
-Dialogue: 0,0:01:24.76,0:01:24.92,Default,,0,0,0,,{\an5\bord1}The {\1c&H00FFFF&}cops{\1c&HFFFFFF&} just
-Dialogue: 0,0:01:24.92,0:01:25.20,Default,,0,0,0,,{\an5\bord1}The cops {\1c&H00FFFF&}just{\1c&HFFFFFF&}
-Dialogue: 0,0:01:25.20,0:01:25.56,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}basically{\1c&HFFFFFF&} told
-Dialogue: 0,0:01:25.56,0:01:25.74,Default,,0,0,0,,{\an5\bord1}basically {\1c&H00FF00&}told{\1c&HFFFFFF&}
-Dialogue: 0,0:01:25.74,0:01:25.92,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}us{\1c&HFFFFFF&} to behave
-Dialogue: 0,0:01:25.92,0:01:26.06,Default,,0,0,0,,{\an5\bord1}us {\1c&H0000FF&}to{\1c&HFFFFFF&} behave
-Dialogue: 0,0:01:26.06,0:01:26.30,Default,,0,0,0,,{\an5\bord1}us to {\1c&H0000FF&}behave{\1c&HFFFFFF&}
-Dialogue: 0,0:01:26.30,0:01:26.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}and{\1c&HFFFFFF&} keep it
-Dialogue: 0,0:01:26.46,0:01:26.58,Default,,0,0,0,,{\an5\bord1}and {\1c&H00FFFF&}keep{\1c&HFFFFFF&} it
-Dialogue: 0,0:01:26.58,0:01:26.76,Default,,0,0,0,,{\an5\bord1}and keep {\1c&H00FFFF&}it{\1c&HFFFFFF&}
-Dialogue: 0,0:01:26.76,0:01:26.90,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}down{\1c&HFFFFFF&} then left.
-Dialogue: 0,0:01:26.90,0:01:27.10,Default,,0,0,0,,{\an5\bord1}down {\1c&H00FF00&}then{\1c&HFFFFFF&} left.
-Dialogue: 0,0:01:27.10,0:01:27.46,Default,,0,0,0,,{\an5\bord1}down then {\1c&H00FF00&}left.{\1c&HFFFFFF&}
-Dialogue: 0,0:01:28.24,0:01:28.38,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}For{\1c&HFFFFFF&} a second
-Dialogue: 0,0:01:28.38,0:01:28.48,Default,,0,0,0,,{\an5\bord1}For {\1c&H00FF00&}a{\1c&HFFFFFF&} second
-Dialogue: 0,0:01:28.48,0:01:28.66,Default,,0,0,0,,{\an5\bord1}For a {\1c&H00FF00&}second{\1c&HFFFFFF&}
-Dialogue: 0,0:01:28.66,0:01:28.84,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}there{\1c&HFFFFFF&} I was
-Dialogue: 0,0:01:28.84,0:01:28.94,Default,,0,0,0,,{\an5\bord1}there {\1c&H00FF00&}I{\1c&HFFFFFF&} was
-Dialogue: 0,0:01:28.94,0:01:29.10,Default,,0,0,0,,{\an5\bord1}there I {\1c&H00FF00&}was{\1c&HFFFFFF&}
-Dialogue: 0,0:01:29.10,0:01:29.34,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}really{\1c&HFFFFFF&} worried
-Dialogue: 0,0:01:29.34,0:01:29.58,Default,,0,0,0,,{\an5\bord1}really {\1c&H0000FF&}worried{\1c&HFFFFFF&}
-Dialogue: 0,0:01:29.58,0:01:29.86,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}the{\1c&HFFFFFF&} last thing
-Dialogue: 0,0:01:29.86,0:01:30.10,Default,,0,0,0,,{\an5\bord1}the {\1c&H0000FF&}last{\1c&HFFFFFF&} thing
-Dialogue: 0,0:01:30.10,0:01:30.24,Default,,0,0,0,,{\an5\bord1}the last {\1c&H0000FF&}thing{\1c&HFFFFFF&}
-Dialogue: 0,0:01:30.24,0:01:30.38,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}I{\1c&HFFFFFF&} need is to be
-Dialogue: 0,0:01:30.38,0:01:30.56,Default,,0,0,0,,{\an5\bord1}I {\1c&H0000FF&}need{\1c&HFFFFFF&} is to be
-Dialogue: 0,0:01:30.56,0:01:30.70,Default,,0,0,0,,{\an5\bord1}I need {\1c&H0000FF&}is{\1c&HFFFFFF&} to be
-Dialogue: 0,0:01:30.70,0:01:30.80,Default,,0,0,0,,{\an5\bord1}I need is {\1c&H0000FF&}to{\1c&HFFFFFF&} be
-Dialogue: 0,0:01:30.80,0:01:30.92,Default,,0,0,0,,{\an5\bord1}I need is to {\1c&H0000FF&}be{\1c&HFFFFFF&}
-Dialogue: 0,0:01:30.92,0:01:31.14,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}arrested{\1c&HFFFFFF&} over
-Dialogue: 0,0:01:31.14,0:01:31.44,Default,,0,0,0,,{\an5\bord1}arrested {\1c&H0000FF&}over{\1c&HFFFFFF&}
-Dialogue: 0,0:01:31.44,0:01:31.78,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}cake.{\1c&HFFFFFF&}
-Dialogue: 0,0:01:32.66,0:01:33.02,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}TLDR,{\1c&HFFFFFF&} I almost
-Dialogue: 0,0:01:33.32,0:01:33.44,Default,,0,0,0,,{\an5\bord1}TLDR, {\1c&H00FFFF&}I{\1c&HFFFFFF&} almost
-Dialogue: 0,0:01:33.44,0:01:33.60,Default,,0,0,0,,{\an5\bord1}TLDR, I {\1c&H00FFFF&}almost{\1c&HFFFFFF&}
-Dialogue: 0,0:01:33.60,0:01:33.76,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}got{\1c&HFFFFFF&} arrested
-Dialogue: 0,0:01:33.76,0:01:34.04,Default,,0,0,0,,{\an5\bord1}got {\1c&H00FFFF&}arrested{\1c&HFFFFFF&}
-Dialogue: 0,0:01:34.04,0:01:34.30,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}over{\1c&HFFFFFF&} cake.
-Dialogue: 0,0:01:34.30,0:01:34.66,Default,,0,0,0,,{\an5\bord1}over {\1c&H0000FF&}cake.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:00.00,0:00:00.40,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}Today{\1c&HFFFFFF&} I have to
+Dialogue: 0,0:00:00.40,0:00:00.62,Default,,0,0,0,,{\an5\bord1}Today {\1c&H0000FF&}I{\1c&HFFFFFF&} have to
+Dialogue: 0,0:00:00.62,0:00:00.70,Default,,0,0,0,,{\an5\bord1}Today I {\1c&H0000FF&}have{\1c&HFFFFFF&} to
+Dialogue: 0,0:00:00.70,0:00:00.80,Default,,0,0,0,,{\an5\bord1}Today I have {\1c&H0000FF&}to{\1c&HFFFFFF&}
+Dialogue: 0,0:00:00.80,0:00:00.94,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}up{\1c&HFFFFFF&} by donating
+Dialogue: 0,0:00:00.94,0:00:01.04,Default,,0,0,0,,{\an5\bord1}up {\1c&H0000FF&}by{\1c&HFFFFFF&} donating
+Dialogue: 0,0:00:01.04,0:00:01.24,Default,,0,0,0,,{\an5\bord1}up by {\1c&H0000FF&}donating{\1c&HFFFFFF&}
+Dialogue: 0,0:00:01.24,0:00:01.60,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}blood{\1c&HFFFFFF&} with
+Dialogue: 0,0:00:01.60,0:00:01.78,Default,,0,0,0,,{\an5\bord1}blood {\1c&H0000FF&}with{\1c&HFFFFFF&}
+Dialogue: 0,0:00:01.78,0:00:02.14,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}ulcerative{\1c&HFFFFFF&}
+Dialogue: 0,0:00:02.14,0:00:02.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}colitis.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:03.56,0:00:03.72,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}Hello,{\1c&HFFFFFF&} I'm your
+Dialogue: 0,0:00:03.96,0:00:04.12,Default,,0,0,0,,{\an5\bord1}Hello, {\1c&H0000FF&}I'm{\1c&HFFFFFF&} your
+Dialogue: 0,0:00:04.12,0:00:04.26,Default,,0,0,0,,{\an5\bord1}Hello, I'm {\1c&H0000FF&}your{\1c&HFFFFFF&}
+Dialogue: 0,0:00:04.26,0:00:04.42,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}not{\1c&HFFFFFF&} so typical
+Dialogue: 0,0:00:04.42,0:00:04.66,Default,,0,0,0,,{\an5\bord1}not {\1c&H0000FF&}so{\1c&HFFFFFF&} typical
+Dialogue: 0,0:00:04.66,0:00:04.88,Default,,0,0,0,,{\an5\bord1}not so {\1c&H0000FF&}typical{\1c&HFFFFFF&}
+Dialogue: 0,0:00:04.88,0:00:05.20,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}chronically{\1c&HFFFFFF&} ill
+Dialogue: 0,0:00:05.20,0:00:05.60,Default,,0,0,0,,{\an5\bord1}chronically {\1c&H00FF00&}ill{\1c&HFFFFFF&}
+Dialogue: 0,0:00:05.60,0:00:05.64,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}chick{\1c&HFFFFFF&} who
+Dialogue: 0,0:00:05.64,0:00:05.76,Default,,0,0,0,,{\an5\bord1}chick {\1c&H00FF00&}who{\1c&HFFFFFF&}
+Dialogue: 0,0:00:05.76,0:00:05.94,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}doesn't{\1c&HFFFFFF&} think
+Dialogue: 0,0:00:05.94,0:00:06.18,Default,,0,0,0,,{\an5\bord1}doesn't {\1c&H00FFFF&}think{\1c&HFFFFFF&}
+Dialogue: 0,0:00:06.18,0:00:06.42,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}before{\1c&HFFFFFF&} she does
+Dialogue: 0,0:00:06.42,0:00:06.60,Default,,0,0,0,,{\an5\bord1}before {\1c&H00FF00&}she{\1c&HFFFFFF&} does
+Dialogue: 0,0:00:06.60,0:00:06.78,Default,,0,0,0,,{\an5\bord1}before she {\1c&H00FF00&}does{\1c&HFFFFFF&}
+Dialogue: 0,0:00:06.78,0:00:06.96,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}stuff{\1c&HFFFFFF&} at the
+Dialogue: 0,0:00:06.96,0:00:07.12,Default,,0,0,0,,{\an5\bord1}stuff {\1c&H00FFFF&}at{\1c&HFFFFFF&} the
+Dialogue: 0,0:00:07.12,0:00:07.20,Default,,0,0,0,,{\an5\bord1}stuff at {\1c&H00FFFF&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:00:07.20,0:00:07.36,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}worst{\1c&HFFFFFF&} times.
+Dialogue: 0,0:00:07.36,0:00:07.76,Default,,0,0,0,,{\an5\bord1}worst {\1c&H00FF00&}times.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:08.66,0:00:08.68,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}I{\1c&HFFFFFF&} have
+Dialogue: 0,0:00:08.68,0:00:08.82,Default,,0,0,0,,{\an5\bord1}I {\1c&H0000FF&}have{\1c&HFFFFFF&}
+Dialogue: 0,0:00:08.82,0:00:09.20,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}ulcerative{\1c&HFFFFFF&}
+Dialogue: 0,0:00:09.20,0:00:09.66,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}colitis,{\1c&HFFFFFF&} I'm on
+Dialogue: 0,0:00:09.84,0:00:09.98,Default,,0,0,0,,{\an5\bord1}colitis, {\1c&H00FFFF&}I'm{\1c&HFFFFFF&} on
+Dialogue: 0,0:00:09.98,0:00:10.06,Default,,0,0,0,,{\an5\bord1}colitis, I'm {\1c&H00FFFF&}on{\1c&HFFFFFF&}
+Dialogue: 0,0:00:10.06,0:00:10.26,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}other{\1c&HFFFFFF&} fun party
+Dialogue: 0,0:00:10.26,0:00:10.46,Default,,0,0,0,,{\an5\bord1}other {\1c&H00FF00&}fun{\1c&HFFFFFF&} party
+Dialogue: 0,0:00:10.46,0:00:10.68,Default,,0,0,0,,{\an5\bord1}other fun {\1c&H00FF00&}party{\1c&HFFFFFF&}
+Dialogue: 0,0:00:10.68,0:00:11.02,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}favors,{\1c&HFFFFFF&} and I
+Dialogue: 0,0:00:11.24,0:00:11.40,Default,,0,0,0,,{\an5\bord1}favors, {\1c&H00FF00&}and{\1c&HFFFFFF&} I
+Dialogue: 0,0:00:11.40,0:00:11.54,Default,,0,0,0,,{\an5\bord1}favors, and {\1c&H00FF00&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:00:11.54,0:00:11.78,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}literally{\1c&HFFFFFF&} had
+Dialogue: 0,0:00:11.78,0:00:11.98,Default,,0,0,0,,{\an5\bord1}literally {\1c&H00FF00&}had{\1c&HFFFFFF&}
+Dialogue: 0,0:00:11.98,0:00:12.18,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}ulcer{\1c&HFFFFFF&} so bad
+Dialogue: 0,0:00:12.18,0:00:12.44,Default,,0,0,0,,{\an5\bord1}ulcer {\1c&H00FFFF&}so{\1c&HFFFFFF&} bad
+Dialogue: 0,0:00:12.44,0:00:12.68,Default,,0,0,0,,{\an5\bord1}ulcer so {\1c&H00FFFF&}bad{\1c&HFFFFFF&}
+Dialogue: 0,0:00:12.68,0:00:12.80,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}that{\1c&HFFFFFF&} when I
+Dialogue: 0,0:00:12.80,0:00:12.96,Default,,0,0,0,,{\an5\bord1}that {\1c&H00FFFF&}when{\1c&HFFFFFF&} I
+Dialogue: 0,0:00:12.96,0:00:13.04,Default,,0,0,0,,{\an5\bord1}that when {\1c&H00FFFF&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:00:13.04,0:00:13.22,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}went{\1c&HFFFFFF&} in to have
+Dialogue: 0,0:00:13.22,0:00:13.32,Default,,0,0,0,,{\an5\bord1}went {\1c&H00FF00&}in{\1c&HFFFFFF&} to have
+Dialogue: 0,0:00:13.32,0:00:13.42,Default,,0,0,0,,{\an5\bord1}went in {\1c&H00FF00&}to{\1c&HFFFFFF&} have
+Dialogue: 0,0:00:13.42,0:00:13.52,Default,,0,0,0,,{\an5\bord1}went in to {\1c&H00FF00&}have{\1c&HFFFFFF&}
+Dialogue: 0,0:00:13.52,0:00:13.80,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}them{\1c&HFFFFFF&}
+Dialogue: 0,0:00:13.80,0:00:14.16,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}cauterized,{\1c&HFFFFFF&} I
+Dialogue: 0,0:00:14.36,0:00:14.48,Default,,0,0,0,,{\an5\bord1}cauterized, {\1c&H0000FF&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:00:14.48,0:00:14.62,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}woke{\1c&HFFFFFF&} up in
+Dialogue: 0,0:00:14.62,0:00:14.80,Default,,0,0,0,,{\an5\bord1}woke {\1c&H00FF00&}up{\1c&HFFFFFF&} in
+Dialogue: 0,0:00:14.80,0:00:14.92,Default,,0,0,0,,{\an5\bord1}woke up {\1c&H00FF00&}in{\1c&HFFFFFF&}
+Dialogue: 0,0:00:14.92,0:00:15.18,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}quarantine{\1c&HFFFFFF&}
+Dialogue: 0,0:00:15.18,0:00:15.58,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}because{\1c&HFFFFFF&} the
+Dialogue: 0,0:00:15.58,0:00:15.82,Default,,0,0,0,,{\an5\bord1}because {\1c&H00FFFF&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:00:15.82,0:00:16.04,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}specialist{\1c&HFFFFFF&} had
+Dialogue: 0,0:00:16.04,0:00:16.30,Default,,0,0,0,,{\an5\bord1}specialist {\1c&H00FF00&}had{\1c&HFFFFFF&}
+Dialogue: 0,0:00:16.30,0:00:16.52,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}never{\1c&HFFFFFF&} seen
+Dialogue: 0,0:00:16.52,0:00:16.68,Default,,0,0,0,,{\an5\bord1}never {\1c&H0000FF&}seen{\1c&HFFFFFF&}
+Dialogue: 0,0:00:16.68,0:00:16.94,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}ulcer{\1c&HFFFFFF&} so bad
+Dialogue: 0,0:00:16.94,0:00:17.20,Default,,0,0,0,,{\an5\bord1}ulcer {\1c&H00FF00&}so{\1c&HFFFFFF&} bad
+Dialogue: 0,0:00:17.20,0:00:17.44,Default,,0,0,0,,{\an5\bord1}ulcer so {\1c&H00FF00&}bad{\1c&HFFFFFF&}
+Dialogue: 0,0:00:17.44,0:00:17.72,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}without{\1c&HFFFFFF&} see
+Dialogue: 0,0:00:17.72,0:00:17.88,Default,,0,0,0,,{\an5\bord1}without {\1c&H00FF00&}see{\1c&HFFFFFF&}
+Dialogue: 0,0:00:17.88,0:00:18.02,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}death{\1c&HFFFFFF&} being
+Dialogue: 0,0:00:18.02,0:00:18.24,Default,,0,0,0,,{\an5\bord1}death {\1c&H00FF00&}being{\1c&HFFFFFF&}
+Dialogue: 0,0:00:18.24,0:00:18.62,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}involved.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:19.50,0:00:19.64,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}It{\1c&HFFFFFF&} thankfully
+Dialogue: 0,0:00:19.64,0:00:19.90,Default,,0,0,0,,{\an5\bord1}It {\1c&H00FF00&}thankfully{\1c&HFFFFFF&}
+Dialogue: 0,0:00:19.90,0:00:20.12,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}had{\1c&HFFFFFF&} nothing to
+Dialogue: 0,0:00:20.12,0:00:20.30,Default,,0,0,0,,{\an5\bord1}had {\1c&H00FF00&}nothing{\1c&HFFFFFF&} to
+Dialogue: 0,0:00:20.30,0:00:20.48,Default,,0,0,0,,{\an5\bord1}had nothing {\1c&H00FF00&}to{\1c&HFFFFFF&}
+Dialogue: 0,0:00:20.48,0:00:20.58,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}do{\1c&HFFFFFF&} with see
+Dialogue: 0,0:00:20.58,0:00:20.74,Default,,0,0,0,,{\an5\bord1}do {\1c&H00FFFF&}with{\1c&HFFFFFF&} see
+Dialogue: 0,0:00:20.74,0:00:20.90,Default,,0,0,0,,{\an5\bord1}do with {\1c&H00FFFF&}see{\1c&HFFFFFF&}
+Dialogue: 0,0:00:20.90,0:00:21.06,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}death{\1c&HFFFFFF&} and I was
+Dialogue: 0,0:00:21.06,0:00:21.16,Default,,0,0,0,,{\an5\bord1}death {\1c&H00FF00&}and{\1c&HFFFFFF&} I was
+Dialogue: 0,0:00:21.16,0:00:21.26,Default,,0,0,0,,{\an5\bord1}death and {\1c&H00FF00&}I{\1c&HFFFFFF&} was
+Dialogue: 0,0:00:21.26,0:00:21.42,Default,,0,0,0,,{\an5\bord1}death and I {\1c&H00FF00&}was{\1c&HFFFFFF&}
+Dialogue: 0,0:00:21.42,0:00:21.58,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}started{\1c&HFFFFFF&} on
+Dialogue: 0,0:00:21.58,0:00:21.82,Default,,0,0,0,,{\an5\bord1}started {\1c&H00FF00&}on{\1c&HFFFFFF&}
+Dialogue: 0,0:00:21.82,0:00:22.06,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}foreign{\1c&HFFFFFF&} fusions
+Dialogue: 0,0:00:22.06,0:00:22.28,Default,,0,0,0,,{\an5\bord1}foreign {\1c&H0000FF&}fusions{\1c&HFFFFFF&}
+Dialogue: 0,0:00:22.28,0:00:22.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}of{\1c&HFFFFFF&} powerful
+Dialogue: 0,0:00:22.60,0:00:22.78,Default,,0,0,0,,{\an5\bord1}of {\1c&H00FFFF&}powerful{\1c&HFFFFFF&}
+Dialogue: 0,0:00:22.78,0:00:23.24,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}medication.{\1c&HFFFFFF&} So,
+Dialogue: 0,0:00:24.28,0:00:24.58,Default,,0,0,0,,{\an5\bord1}medication. {\1c&H0000FF&}So,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:24.66,0:00:24.90,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}after{\1c&HFFFFFF&} the first
+Dialogue: 0,0:00:24.90,0:00:25.06,Default,,0,0,0,,{\an5\bord1}after {\1c&H00FF00&}the{\1c&HFFFFFF&} first
+Dialogue: 0,0:00:25.06,0:00:25.24,Default,,0,0,0,,{\an5\bord1}after the {\1c&H00FF00&}first{\1c&HFFFFFF&}
+Dialogue: 0,0:00:25.24,0:00:25.64,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}infusion,{\1c&HFFFFFF&} I
+Dialogue: 0,0:00:25.86,0:00:26.00,Default,,0,0,0,,{\an5\bord1}infusion, {\1c&H00FF00&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:00:26.00,0:00:26.18,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}start{\1c&HFFFFFF&} feeling
+Dialogue: 0,0:00:26.18,0:00:26.44,Default,,0,0,0,,{\an5\bord1}start {\1c&H00FFFF&}feeling{\1c&HFFFFFF&}
+Dialogue: 0,0:00:26.44,0:00:26.66,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}better,{\1c&HFFFFFF&} good,
+Dialogue: 0,0:00:26.90,0:00:27.28,Default,,0,0,0,,{\an5\bord1}better, {\1c&H00FF00&}good,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:27.28,0:00:27.72,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}right?{\1c&HFFFFFF&}
+Dialogue: 0,0:00:28.20,0:00:28.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}Now,{\1c&HFFFFFF&} I work at
+Dialogue: 0,0:00:28.86,0:00:29.00,Default,,0,0,0,,{\an5\bord1}Now, {\1c&H00FFFF&}I{\1c&HFFFFFF&} work at
+Dialogue: 0,0:00:29.00,0:00:29.08,Default,,0,0,0,,{\an5\bord1}Now, I {\1c&H00FFFF&}work{\1c&HFFFFFF&} at
+Dialogue: 0,0:00:29.08,0:00:29.22,Default,,0,0,0,,{\an5\bord1}Now, I work {\1c&H00FFFF&}at{\1c&HFFFFFF&}
+Dialogue: 0,0:00:29.22,0:00:29.36,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}a{\1c&HFFFFFF&} church. A
+Dialogue: 0,0:00:29.36,0:00:29.60,Default,,0,0,0,,{\an5\bord1}a {\1c&H00FFFF&}church.{\1c&HFFFFFF&} A
+Dialogue: 0,0:00:30.50,0:00:30.54,Default,,0,0,0,,{\an5\bord1}a church. {\1c&H00FFFF&}A{\1c&HFFFFFF&}
+Dialogue: 0,0:00:30.54,0:00:30.70,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}good{\1c&HFFFFFF&} one that's
+Dialogue: 0,0:00:30.70,0:00:30.84,Default,,0,0,0,,{\an5\bord1}good {\1c&H00FF00&}one{\1c&HFFFFFF&} that's
+Dialogue: 0,0:00:30.84,0:00:31.06,Default,,0,0,0,,{\an5\bord1}good one {\1c&H00FF00&}that's{\1c&HFFFFFF&}
+Dialogue: 0,0:00:31.06,0:00:31.26,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}pro{\1c&HFFFFFF&} LGBT and
+Dialogue: 0,0:00:31.26,0:00:31.66,Default,,0,0,0,,{\an5\bord1}pro {\1c&H00FF00&}LGBT{\1c&HFFFFFF&} and
+Dialogue: 0,0:00:31.66,0:00:32.14,Default,,0,0,0,,{\an5\bord1}pro LGBT {\1c&H00FF00&}and{\1c&HFFFFFF&}
+Dialogue: 0,0:00:32.14,0:00:32.43,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}actually{\1c&HFFFFFF&} has
+Dialogue: 0,0:00:32.43,0:00:32.61,Default,,0,0,0,,{\an5\bord1}actually {\1c&H00FFFF&}has{\1c&HFFFFFF&}
+Dialogue: 0,0:00:32.61,0:00:32.84,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}charities{\1c&HFFFFFF&} to
+Dialogue: 0,0:00:32.84,0:00:33.08,Default,,0,0,0,,{\an5\bord1}charities {\1c&H00FF00&}to{\1c&HFFFFFF&}
+Dialogue: 0,0:00:33.08,0:00:33.20,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}help{\1c&HFFFFFF&} the
+Dialogue: 0,0:00:33.20,0:00:33.36,Default,,0,0,0,,{\an5\bord1}help {\1c&H00FFFF&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:00:33.36,0:00:33.86,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}community.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:34.68,0:00:34.74,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}One{\1c&HFFFFFF&} of our
+Dialogue: 0,0:00:34.74,0:00:34.82,Default,,0,0,0,,{\an5\bord1}One {\1c&H0000FF&}of{\1c&HFFFFFF&} our
+Dialogue: 0,0:00:34.82,0:00:35.00,Default,,0,0,0,,{\an5\bord1}One of {\1c&H0000FF&}our{\1c&HFFFFFF&}
+Dialogue: 0,0:00:35.00,0:00:35.20,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}charities{\1c&HFFFFFF&} is a
+Dialogue: 0,0:00:35.20,0:00:35.48,Default,,0,0,0,,{\an5\bord1}charities {\1c&H0000FF&}is{\1c&HFFFFFF&} a
+Dialogue: 0,0:00:35.48,0:00:35.60,Default,,0,0,0,,{\an5\bord1}charities is {\1c&H0000FF&}a{\1c&HFFFFFF&}
+Dialogue: 0,0:00:35.60,0:00:35.86,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}partnership{\1c&HFFFFFF&}
+Dialogue: 0,0:00:35.86,0:00:36.08,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}with{\1c&HFFFFFF&} the Red
+Dialogue: 0,0:00:36.08,0:00:36.20,Default,,0,0,0,,{\an5\bord1}with {\1c&H00FFFF&}the{\1c&HFFFFFF&} Red
+Dialogue: 0,0:00:36.20,0:00:36.36,Default,,0,0,0,,{\an5\bord1}with the {\1c&H00FFFF&}Red{\1c&HFFFFFF&}
+Dialogue: 0,0:00:36.36,0:00:36.62,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}Cross{\1c&HFFFFFF&} where we
+Dialogue: 0,0:00:36.62,0:00:36.82,Default,,0,0,0,,{\an5\bord1}Cross {\1c&H00FFFF&}where{\1c&HFFFFFF&} we
+Dialogue: 0,0:00:36.82,0:00:36.92,Default,,0,0,0,,{\an5\bord1}Cross where {\1c&H00FFFF&}we{\1c&HFFFFFF&}
+Dialogue: 0,0:00:36.92,0:00:37.12,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}hold{\1c&HFFFFFF&} blood
+Dialogue: 0,0:00:37.12,0:00:37.32,Default,,0,0,0,,{\an5\bord1}hold {\1c&H00FFFF&}blood{\1c&HFFFFFF&}
+Dialogue: 0,0:00:37.32,0:00:37.58,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}drives{\1c&HFFFFFF&} every
+Dialogue: 0,0:00:37.58,0:00:37.84,Default,,0,0,0,,{\an5\bord1}drives {\1c&H00FFFF&}every{\1c&HFFFFFF&}
+Dialogue: 0,0:00:37.84,0:00:38.02,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}two{\1c&HFFFFFF&} months.
+Dialogue: 0,0:00:38.02,0:00:38.46,Default,,0,0,0,,{\an5\bord1}two {\1c&H0000FF&}months.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:39.20,0:00:39.42,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}This{\1c&HFFFFFF&} charity
+Dialogue: 0,0:00:39.42,0:00:39.70,Default,,0,0,0,,{\an5\bord1}This {\1c&H00FFFF&}charity{\1c&HFFFFFF&}
+Dialogue: 0,0:00:39.70,0:00:40.00,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}project{\1c&HFFFFFF&} is one
+Dialogue: 0,0:00:40.00,0:00:40.20,Default,,0,0,0,,{\an5\bord1}project {\1c&H00FF00&}is{\1c&HFFFFFF&} one
+Dialogue: 0,0:00:40.20,0:00:40.40,Default,,0,0,0,,{\an5\bord1}project is {\1c&H00FF00&}one{\1c&HFFFFFF&}
+Dialogue: 0,0:00:40.40,0:00:40.42,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}of{\1c&HFFFFFF&} my
+Dialogue: 0,0:00:40.42,0:00:40.60,Default,,0,0,0,,{\an5\bord1}of {\1c&H00FF00&}my{\1c&HFFFFFF&}
+Dialogue: 0,0:00:40.60,0:00:41.08,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}responsibilities.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:42.10,0:00:42.32,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}We{\1c&HFFFFFF&} normally
+Dialogue: 0,0:00:42.32,0:00:42.54,Default,,0,0,0,,{\an5\bord1}We {\1c&H0000FF&}normally{\1c&HFFFFFF&}
+Dialogue: 0,0:00:42.54,0:00:42.76,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}have{\1c&HFFFFFF&} a pretty
+Dialogue: 0,0:00:42.76,0:00:42.86,Default,,0,0,0,,{\an5\bord1}have {\1c&H00FFFF&}a{\1c&HFFFFFF&} pretty
+Dialogue: 0,0:00:42.86,0:00:42.98,Default,,0,0,0,,{\an5\bord1}have a {\1c&H00FFFF&}pretty{\1c&HFFFFFF&}
+Dialogue: 0,0:00:42.98,0:00:43.24,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}good{\1c&HFFFFFF&} turnout
+Dialogue: 0,0:00:43.24,0:00:43.48,Default,,0,0,0,,{\an5\bord1}good {\1c&H00FF00&}turnout{\1c&HFFFFFF&}
+Dialogue: 0,0:00:43.48,0:00:43.66,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}and{\1c&HFFFFFF&} the
+Dialogue: 0,0:00:43.66,0:00:43.78,Default,,0,0,0,,{\an5\bord1}and {\1c&H00FF00&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:00:43.78,0:00:43.92,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}Red{\1c&HFFFFFF&} Cross says
+Dialogue: 0,0:00:43.92,0:00:44.18,Default,,0,0,0,,{\an5\bord1}Red {\1c&H00FF00&}Cross{\1c&HFFFFFF&} says
+Dialogue: 0,0:00:44.18,0:00:44.40,Default,,0,0,0,,{\an5\bord1}Red Cross {\1c&H00FF00&}says{\1c&HFFFFFF&}
+Dialogue: 0,0:00:44.40,0:00:44.52,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}we're{\1c&HFFFFFF&} one of
+Dialogue: 0,0:00:44.52,0:00:44.62,Default,,0,0,0,,{\an5\bord1}we're {\1c&H00FFFF&}one{\1c&HFFFFFF&} of
+Dialogue: 0,0:00:44.62,0:00:44.70,Default,,0,0,0,,{\an5\bord1}we're one {\1c&H00FFFF&}of{\1c&HFFFFFF&}
+Dialogue: 0,0:00:44.70,0:00:44.82,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}their{\1c&HFFFFFF&} best
+Dialogue: 0,0:00:44.82,0:00:45.00,Default,,0,0,0,,{\an5\bord1}their {\1c&H00FF00&}best{\1c&HFFFFFF&}
+Dialogue: 0,0:00:45.00,0:00:45.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}drives.{\1c&HFFFFFF&} But
+Dialogue: 0,0:00:46.20,0:00:46.38,Default,,0,0,0,,{\an5\bord1}drives. {\1c&H00FFFF&}But{\1c&HFFFFFF&}
+Dialogue: 0,0:00:46.38,0:00:46.56,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}this{\1c&HFFFFFF&} time
+Dialogue: 0,0:00:46.56,0:00:46.72,Default,,0,0,0,,{\an5\bord1}this {\1c&H00FF00&}time{\1c&HFFFFFF&}
+Dialogue: 0,0:00:46.72,0:00:47.02,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}around,{\1c&HFFFFFF&} our
+Dialogue: 0,0:00:47.12,0:00:47.26,Default,,0,0,0,,{\an5\bord1}around, {\1c&H00FF00&}our{\1c&HFFFFFF&}
+Dialogue: 0,0:00:47.26,0:00:47.44,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}numbers{\1c&HFFFFFF&} were
+Dialogue: 0,0:00:47.44,0:00:47.68,Default,,0,0,0,,{\an5\bord1}numbers {\1c&H0000FF&}were{\1c&HFFFFFF&}
+Dialogue: 0,0:00:47.68,0:00:48.02,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}low,{\1c&HFFFFFF&} and some
+Dialogue: 0,0:00:48.14,0:00:48.30,Default,,0,0,0,,{\an5\bord1}low, {\1c&H00FF00&}and{\1c&HFFFFFF&} some
+Dialogue: 0,0:00:48.30,0:00:48.48,Default,,0,0,0,,{\an5\bord1}low, and {\1c&H00FF00&}some{\1c&HFFFFFF&}
+Dialogue: 0,0:00:48.48,0:00:48.52,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}of{\1c&HFFFFFF&}
+Dialogue: 0,0:00:48.52,0:00:48.70,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}our{\1c&HFFFFFF&} regular
+Dialogue: 0,0:00:48.70,0:00:48.92,Default,,0,0,0,,{\an5\bord1}our {\1c&H0000FF&}regular{\1c&HFFFFFF&}
+Dialogue: 0,0:00:48.92,0:00:49.18,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}donors{\1c&HFFFFFF&} got
+Dialogue: 0,0:00:49.18,0:00:49.54,Default,,0,0,0,,{\an5\bord1}donors {\1c&H0000FF&}got{\1c&HFFFFFF&}
+Dialogue: 0,0:00:49.54,0:00:49.66,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}deferred{\1c&HFFFFFF&} for
+Dialogue: 0,0:00:49.66,0:00:49.96,Default,,0,0,0,,{\an5\bord1}deferred {\1c&H00FFFF&}for{\1c&HFFFFFF&}
+Dialogue: 0,0:00:49.96,0:00:50.10,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}low{\1c&HFFFFFF&} hemoglobin.
+Dialogue: 0,0:00:50.10,0:00:50.50,Default,,0,0,0,,{\an5\bord1}low {\1c&H0000FF&}hemoglobin.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:51.42,0:00:51.80,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}So,{\1c&HFFFFFF&} I decided
+Dialogue: 0,0:00:51.80,0:00:51.98,Default,,0,0,0,,{\an5\bord1}So, {\1c&H0000FF&}I{\1c&HFFFFFF&} decided
+Dialogue: 0,0:00:51.98,0:00:52.26,Default,,0,0,0,,{\an5\bord1}So, I {\1c&H0000FF&}decided{\1c&HFFFFFF&}
+Dialogue: 0,0:00:52.26,0:00:52.68,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}that,{\1c&HFFFFFF&} since my
+Dialogue: 0,0:00:52.72,0:00:52.88,Default,,0,0,0,,{\an5\bord1}that, {\1c&H00FF00&}since{\1c&HFFFFFF&} my
+Dialogue: 0,0:00:52.88,0:00:53.08,Default,,0,0,0,,{\an5\bord1}that, since {\1c&H00FF00&}my{\1c&HFFFFFF&}
+Dialogue: 0,0:00:53.08,0:00:53.34,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}insights{\1c&HFFFFFF&} aren't
+Dialogue: 0,0:00:53.34,0:00:53.54,Default,,0,0,0,,{\an5\bord1}insights {\1c&H00FFFF&}aren't{\1c&HFFFFFF&}
+Dialogue: 0,0:00:53.54,0:00:53.88,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}hemorrhaging{\1c&HFFFFFF&}
+Dialogue: 0,0:00:53.88,0:00:54.32,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}anymore,{\1c&HFFFFFF&} I'll
+Dialogue: 0,0:00:54.50,0:00:54.58,Default,,0,0,0,,{\an5\bord1}anymore, {\1c&H00FFFF&}I'll{\1c&HFFFFFF&}
+Dialogue: 0,0:00:54.58,0:00:54.76,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}donate{\1c&HFFFFFF&} a pint
+Dialogue: 0,0:00:54.76,0:00:54.94,Default,,0,0,0,,{\an5\bord1}donate {\1c&H0000FF&}a{\1c&HFFFFFF&} pint
+Dialogue: 0,0:00:54.94,0:00:55.04,Default,,0,0,0,,{\an5\bord1}donate a {\1c&H0000FF&}pint{\1c&HFFFFFF&}
+Dialogue: 0,0:00:55.04,0:00:55.22,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}to{\1c&HFFFFFF&} help out.
+Dialogue: 0,0:00:55.22,0:00:55.32,Default,,0,0,0,,{\an5\bord1}to {\1c&H00FFFF&}help{\1c&HFFFFFF&} out.
+Dialogue: 0,0:00:55.32,0:00:55.84,Default,,0,0,0,,{\an5\bord1}to help {\1c&H00FFFF&}out.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:56.44,0:00:56.56,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}So,{\1c&HFFFFFF&} I go over
+Dialogue: 0,0:00:56.58,0:00:56.66,Default,,0,0,0,,{\an5\bord1}So, {\1c&H00FF00&}I{\1c&HFFFFFF&} go over
+Dialogue: 0,0:00:56.66,0:00:56.78,Default,,0,0,0,,{\an5\bord1}So, I {\1c&H00FF00&}go{\1c&HFFFFFF&} over
+Dialogue: 0,0:00:56.78,0:00:57.00,Default,,0,0,0,,{\an5\bord1}So, I go {\1c&H00FF00&}over{\1c&HFFFFFF&}
+Dialogue: 0,0:00:57.00,0:00:57.10,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}and{\1c&HFFFFFF&} get hooked
+Dialogue: 0,0:00:57.10,0:00:57.26,Default,,0,0,0,,{\an5\bord1}and {\1c&H00FF00&}get{\1c&HFFFFFF&} hooked
+Dialogue: 0,0:00:57.26,0:00:57.34,Default,,0,0,0,,{\an5\bord1}and get {\1c&H00FF00&}hooked{\1c&HFFFFFF&}
+Dialogue: 0,0:00:57.34,0:00:57.54,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}up{\1c&HFFFFFF&} and give
+Dialogue: 0,0:00:57.54,0:00:57.60,Default,,0,0,0,,{\an5\bord1}up {\1c&H0000FF&}and{\1c&HFFFFFF&} give
+Dialogue: 0,0:00:57.60,0:00:57.76,Default,,0,0,0,,{\an5\bord1}up and {\1c&H0000FF&}give{\1c&HFFFFFF&}
+Dialogue: 0,0:00:57.76,0:00:57.88,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}my{\1c&HFFFFFF&} donation. I
+Dialogue: 0,0:00:57.88,0:00:58.18,Default,,0,0,0,,{\an5\bord1}my {\1c&H0000FF&}donation.{\1c&HFFFFFF&} I
+Dialogue: 0,0:00:59.16,0:00:59.26,Default,,0,0,0,,{\an5\bord1}my donation. {\1c&H0000FF&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:00:59.26,0:00:59.38,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}get{\1c&HFFFFFF&} off the
+Dialogue: 0,0:00:59.38,0:00:59.52,Default,,0,0,0,,{\an5\bord1}get {\1c&H00FF00&}off{\1c&HFFFFFF&} the
+Dialogue: 0,0:00:59.52,0:00:59.64,Default,,0,0,0,,{\an5\bord1}get off {\1c&H00FF00&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:00:59.64,0:00:59.80,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}table{\1c&HFFFFFF&} feeling
+Dialogue: 0,0:00:59.80,0:01:00.10,Default,,0,0,0,,{\an5\bord1}table {\1c&H00FF00&}feeling{\1c&HFFFFFF&}
+Dialogue: 0,0:01:00.10,0:01:00.54,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}okay{\1c&HFFFFFF&} and I'm
+Dialogue: 0,0:01:00.54,0:01:00.72,Default,,0,0,0,,{\an5\bord1}okay {\1c&H0000FF&}and{\1c&HFFFFFF&} I'm
+Dialogue: 0,0:01:00.72,0:01:00.88,Default,,0,0,0,,{\an5\bord1}okay and {\1c&H0000FF&}I'm{\1c&HFFFFFF&}
+Dialogue: 0,0:01:00.88,0:01:01.18,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}immediately{\1c&HFFFFFF&}
+Dialogue: 0,0:01:01.18,0:01:01.44,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}called{\1c&HFFFFFF&} over to
+Dialogue: 0,0:01:01.44,0:01:01.64,Default,,0,0,0,,{\an5\bord1}called {\1c&H0000FF&}over{\1c&HFFFFFF&} to
+Dialogue: 0,0:01:01.64,0:01:01.74,Default,,0,0,0,,{\an5\bord1}called over {\1c&H0000FF&}to{\1c&HFFFFFF&}
+Dialogue: 0,0:01:01.74,0:01:01.88,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:01:01.88,0:01:02.18,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}registration{\1c&HFFFFFF&}
+Dialogue: 0,0:01:02.18,0:01:02.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}desk{\1c&HFFFFFF&} because
+Dialogue: 0,0:01:02.60,0:01:02.90,Default,,0,0,0,,{\an5\bord1}desk {\1c&H00FF00&}because{\1c&HFFFFFF&}
+Dialogue: 0,0:01:02.90,0:01:03.10,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}the{\1c&HFFFFFF&} church
+Dialogue: 0,0:01:03.10,0:01:03.24,Default,,0,0,0,,{\an5\bord1}the {\1c&H00FFFF&}church{\1c&HFFFFFF&}
+Dialogue: 0,0:01:03.24,0:01:03.52,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}volunteers{\1c&HFFFFFF&} need
+Dialogue: 0,0:01:03.52,0:01:03.86,Default,,0,0,0,,{\an5\bord1}volunteers {\1c&H00FFFF&}need{\1c&HFFFFFF&}
+Dialogue: 0,0:01:03.86,0:01:04.08,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}some{\1c&HFFFFFF&} supplies.
+Dialogue: 0,0:01:04.08,0:01:04.54,Default,,0,0,0,,{\an5\bord1}some {\1c&H00FF00&}supplies.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:05.42,0:01:05.58,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}So,{\1c&HFFFFFF&} I head off
+Dialogue: 0,0:01:05.60,0:01:05.70,Default,,0,0,0,,{\an5\bord1}So, {\1c&H00FFFF&}I{\1c&HFFFFFF&} head off
+Dialogue: 0,0:01:05.70,0:01:05.82,Default,,0,0,0,,{\an5\bord1}So, I {\1c&H00FFFF&}head{\1c&HFFFFFF&} off
+Dialogue: 0,0:01:05.82,0:01:05.92,Default,,0,0,0,,{\an5\bord1}So, I head {\1c&H00FFFF&}off{\1c&HFFFFFF&}
+Dialogue: 0,0:01:05.92,0:01:06.04,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}to{\1c&HFFFFFF&} get them.
+Dialogue: 0,0:01:06.04,0:01:06.18,Default,,0,0,0,,{\an5\bord1}to {\1c&H0000FF&}get{\1c&HFFFFFF&} them.
+Dialogue: 0,0:01:06.18,0:01:06.86,Default,,0,0,0,,{\an5\bord1}to get {\1c&H0000FF&}them.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:07.26,0:01:07.52,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}Suddenly,{\1c&HFFFFFF&}
+Dialogue: 0,0:01:07.72,0:01:07.88,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}I{\1c&HFFFFFF&} feel
+Dialogue: 0,0:01:07.88,0:01:08.02,Default,,0,0,0,,{\an5\bord1}I {\1c&H00FF00&}feel{\1c&HFFFFFF&}
+Dialogue: 0,0:01:08.02,0:01:08.40,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}lightheaded{\1c&HFFFFFF&} and
+Dialogue: 0,0:01:08.40,0:01:08.60,Default,,0,0,0,,{\an5\bord1}lightheaded {\1c&H00FF00&}and{\1c&HFFFFFF&}
+Dialogue: 0,0:01:08.60,0:01:08.76,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}I'm{\1c&HFFFFFF&} floating
+Dialogue: 0,0:01:08.76,0:01:08.96,Default,,0,0,0,,{\an5\bord1}I'm {\1c&H0000FF&}floating{\1c&HFFFFFF&}
+Dialogue: 0,0:01:08.96,0:01:09.40,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}sideways.{\1c&HFFFFFF&} Then,
+Dialogue: 0,0:01:10.32,0:01:10.50,Default,,0,0,0,,{\an5\bord1}sideways. {\1c&H00FF00&}Then,{\1c&HFFFFFF&}
+Dialogue: 0,0:01:10.58,0:01:10.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}I{\1c&HFFFFFF&} just remember
+Dialogue: 0,0:01:10.60,0:01:10.80,Default,,0,0,0,,{\an5\bord1}I {\1c&H00FF00&}just{\1c&HFFFFFF&} remember
+Dialogue: 0,0:01:10.80,0:01:11.08,Default,,0,0,0,,{\an5\bord1}I just {\1c&H00FF00&}remember{\1c&HFFFFFF&}
+Dialogue: 0,0:01:11.08,0:01:11.30,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}waking{\1c&HFFFFFF&} up
+Dialogue: 0,0:01:11.30,0:01:11.50,Default,,0,0,0,,{\an5\bord1}waking {\1c&H00FF00&}up{\1c&HFFFFFF&}
+Dialogue: 0,0:01:11.50,0:01:11.74,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}laughing{\1c&HFFFFFF&} at the
+Dialogue: 0,0:01:11.74,0:01:11.92,Default,,0,0,0,,{\an5\bord1}laughing {\1c&H00FFFF&}at{\1c&HFFFFFF&} the
+Dialogue: 0,0:01:11.92,0:01:12.04,Default,,0,0,0,,{\an5\bord1}laughing at {\1c&H00FFFF&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:01:12.04,0:01:12.32,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}realization{\1c&HFFFFFF&} I
+Dialogue: 0,0:01:12.32,0:01:12.68,Default,,0,0,0,,{\an5\bord1}realization {\1c&H00FFFF&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:01:12.68,0:01:12.84,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}passed{\1c&HFFFFFF&} out. I'm
+Dialogue: 0,0:01:12.84,0:01:13.52,Default,,0,0,0,,{\an5\bord1}passed {\1c&H0000FF&}out.{\1c&HFFFFFF&} I'm
+Dialogue: 0,0:01:13.92,0:01:14.16,Default,,0,0,0,,{\an5\bord1}passed out. {\1c&H0000FF&}I'm{\1c&HFFFFFF&}
+Dialogue: 0,0:01:14.16,0:01:14.22,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}on{\1c&HFFFFFF&} the floor,
+Dialogue: 0,0:01:14.22,0:01:14.38,Default,,0,0,0,,{\an5\bord1}on {\1c&H00FFFF&}the{\1c&HFFFFFF&} floor,
+Dialogue: 0,0:01:14.38,0:01:14.66,Default,,0,0,0,,{\an5\bord1}on the {\1c&H00FFFF&}floor,{\1c&HFFFFFF&}
+Dialogue: 0,0:01:14.76,0:01:14.94,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}and{\1c&HFFFFFF&} my
+Dialogue: 0,0:01:14.94,0:01:15.12,Default,,0,0,0,,{\an5\bord1}and {\1c&H00FF00&}my{\1c&HFFFFFF&}
+Dialogue: 0,0:01:15.12,0:01:15.40,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}volunteers{\1c&HFFFFFF&} who
+Dialogue: 0,0:01:15.40,0:01:15.68,Default,,0,0,0,,{\an5\bord1}volunteers {\1c&H00FFFF&}who{\1c&HFFFFFF&}
+Dialogue: 0,0:01:15.68,0:01:15.88,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}are{\1c&HFFFFFF&} mostly in
+Dialogue: 0,0:01:15.88,0:01:16.04,Default,,0,0,0,,{\an5\bord1}are {\1c&H00FF00&}mostly{\1c&HFFFFFF&} in
+Dialogue: 0,0:01:16.04,0:01:16.20,Default,,0,0,0,,{\an5\bord1}are mostly {\1c&H00FF00&}in{\1c&HFFFFFF&}
+Dialogue: 0,0:01:16.20,0:01:16.38,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}their{\1c&HFFFFFF&} 70s to
+Dialogue: 0,0:01:16.38,0:01:16.70,Default,,0,0,0,,{\an5\bord1}their {\1c&H00FFFF&}70s{\1c&HFFFFFF&} to
+Dialogue: 0,0:01:16.70,0:01:16.82,Default,,0,0,0,,{\an5\bord1}their 70s {\1c&H00FFFF&}to{\1c&HFFFFFF&}
+Dialogue: 0,0:01:16.82,0:01:17.18,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}90s{\1c&HFFFFFF&}
+Dialogue: 0,0:01:17.18,0:01:17.36,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}are{\1c&HFFFFFF&} crowded
+Dialogue: 0,0:01:17.36,0:01:17.54,Default,,0,0,0,,{\an5\bord1}are {\1c&H00FF00&}crowded{\1c&HFFFFFF&}
+Dialogue: 0,0:01:17.54,0:01:17.84,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}around{\1c&HFFFFFF&} me
+Dialogue: 0,0:01:17.84,0:01:18.02,Default,,0,0,0,,{\an5\bord1}around {\1c&H00FFFF&}me{\1c&HFFFFFF&}
+Dialogue: 0,0:01:18.02,0:01:18.26,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}almost{\1c&HFFFFFF&} in
+Dialogue: 0,0:01:18.26,0:01:18.46,Default,,0,0,0,,{\an5\bord1}almost {\1c&H00FF00&}in{\1c&HFFFFFF&}
+Dialogue: 0,0:01:18.46,0:01:18.72,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}tears.{\1c&HFFFFFF&} The Red
+Dialogue: 0,0:01:19.56,0:01:19.70,Default,,0,0,0,,{\an5\bord1}tears. {\1c&H0000FF&}The{\1c&HFFFFFF&} Red
+Dialogue: 0,0:01:19.70,0:01:19.90,Default,,0,0,0,,{\an5\bord1}tears. The {\1c&H0000FF&}Red{\1c&HFFFFFF&}
+Dialogue: 0,0:01:19.90,0:01:20.14,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}Cross{\1c&HFFFFFF&} text get
+Dialogue: 0,0:01:20.14,0:01:20.36,Default,,0,0,0,,{\an5\bord1}Cross {\1c&H0000FF&}text{\1c&HFFFFFF&} get
+Dialogue: 0,0:01:20.36,0:01:20.52,Default,,0,0,0,,{\an5\bord1}Cross text {\1c&H0000FF&}get{\1c&HFFFFFF&}
+Dialogue: 0,0:01:20.52,0:01:20.62,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}me{\1c&HFFFFFF&} up on a
+Dialogue: 0,0:01:20.62,0:01:20.74,Default,,0,0,0,,{\an5\bord1}me {\1c&H00FF00&}up{\1c&HFFFFFF&} on a
+Dialogue: 0,0:01:20.74,0:01:20.84,Default,,0,0,0,,{\an5\bord1}me up {\1c&H00FF00&}on{\1c&HFFFFFF&} a
+Dialogue: 0,0:01:20.84,0:01:21.00,Default,,0,0,0,,{\an5\bord1}me up on {\1c&H00FF00&}a{\1c&HFFFFFF&}
+Dialogue: 0,0:01:21.00,0:01:21.18,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}table,{\1c&HFFFFFF&} give me
+Dialogue: 0,0:01:21.52,0:01:21.56,Default,,0,0,0,,{\an5\bord1}table, {\1c&H00FF00&}give{\1c&HFFFFFF&} me
+Dialogue: 0,0:01:21.56,0:01:21.72,Default,,0,0,0,,{\an5\bord1}table, give {\1c&H00FF00&}me{\1c&HFFFFFF&}
+Dialogue: 0,0:01:21.72,0:01:21.78,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}a{\1c&HFFFFFF&} juice
+Dialogue: 0,0:01:21.78,0:01:21.92,Default,,0,0,0,,{\an5\bord1}a {\1c&H00FF00&}juice{\1c&HFFFFFF&}
+Dialogue: 0,0:01:21.92,0:01:22.20,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}and{\1c&HFFFFFF&} crackers,
+Dialogue: 0,0:01:22.20,0:01:22.52,Default,,0,0,0,,{\an5\bord1}and {\1c&H00FFFF&}crackers,{\1c&HFFFFFF&}
+Dialogue: 0,0:01:22.74,0:01:22.84,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}and{\1c&HFFFFFF&} tell me to
+Dialogue: 0,0:01:22.84,0:01:22.92,Default,,0,0,0,,{\an5\bord1}and {\1c&H0000FF&}tell{\1c&HFFFFFF&} me to
+Dialogue: 0,0:01:22.92,0:01:23.04,Default,,0,0,0,,{\an5\bord1}and tell {\1c&H0000FF&}me{\1c&HFFFFFF&} to
+Dialogue: 0,0:01:23.04,0:01:23.16,Default,,0,0,0,,{\an5\bord1}and tell me {\1c&H0000FF&}to{\1c&HFFFFFF&}
+Dialogue: 0,0:01:23.16,0:01:23.30,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}lie{\1c&HFFFFFF&} there and
+Dialogue: 0,0:01:23.30,0:01:23.50,Default,,0,0,0,,{\an5\bord1}lie {\1c&H00FFFF&}there{\1c&HFFFFFF&} and
+Dialogue: 0,0:01:23.50,0:01:23.60,Default,,0,0,0,,{\an5\bord1}lie there {\1c&H00FFFF&}and{\1c&HFFFFFF&}
+Dialogue: 0,0:01:23.60,0:01:23.92,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}rest.{\1c&HFFFFFF&} The whole
+Dialogue: 0,0:01:24.76,0:01:24.88,Default,,0,0,0,,{\an5\bord1}rest. {\1c&H00FFFF&}The{\1c&HFFFFFF&} whole
+Dialogue: 0,0:01:24.88,0:01:25.06,Default,,0,0,0,,{\an5\bord1}rest. The {\1c&H00FFFF&}whole{\1c&HFFFFFF&}
+Dialogue: 0,0:01:25.06,0:01:25.24,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}time{\1c&HFFFFFF&} I'm kind's
+Dialogue: 0,0:01:25.24,0:01:25.46,Default,,0,0,0,,{\an5\bord1}time {\1c&H00FFFF&}I'm{\1c&HFFFFFF&} kind's
+Dialogue: 0,0:01:25.46,0:01:25.70,Default,,0,0,0,,{\an5\bord1}time I'm {\1c&H00FFFF&}kind's{\1c&HFFFFFF&}
+Dialogue: 0,0:01:25.70,0:01:25.88,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}laughing{\1c&HFFFFFF&} at how
+Dialogue: 0,0:01:25.88,0:01:26.04,Default,,0,0,0,,{\an5\bord1}laughing {\1c&H0000FF&}at{\1c&HFFFFFF&} how
+Dialogue: 0,0:01:26.04,0:01:26.18,Default,,0,0,0,,{\an5\bord1}laughing at {\1c&H0000FF&}how{\1c&HFFFFFF&}
+Dialogue: 0,0:01:26.18,0:01:26.34,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}stupid{\1c&HFFFFFF&} I
+Dialogue: 0,0:01:26.34,0:01:26.56,Default,,0,0,0,,{\an5\bord1}stupid {\1c&H00FF00&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:01:26.56,0:01:26.98,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}was.{\1c&HFFFFFF&} Long story
+Dialogue: 0,0:01:27.66,0:01:27.90,Default,,0,0,0,,{\an5\bord1}was. {\1c&H00FFFF&}Long{\1c&HFFFFFF&} story
+Dialogue: 0,0:01:27.90,0:01:28.14,Default,,0,0,0,,{\an5\bord1}was. Long {\1c&H00FFFF&}story{\1c&HFFFFFF&}
+Dialogue: 0,0:01:28.14,0:01:28.42,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}short,{\1c&HFFFFFF&} I
+Dialogue: 0,0:01:28.52,0:01:28.66,Default,,0,0,0,,{\an5\bord1}short, {\1c&H00FF00&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:01:28.66,0:01:29.00,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}recovered,{\1c&HFFFFFF&} and
+Dialogue: 0,0:01:29.18,0:01:29.36,Default,,0,0,0,,{\an5\bord1}recovered, {\1c&H0000FF&}and{\1c&HFFFFFF&}
+Dialogue: 0,0:01:29.36,0:01:29.48,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}one{\1c&HFFFFFF&} of our
+Dialogue: 0,0:01:29.48,0:01:29.56,Default,,0,0,0,,{\an5\bord1}one {\1c&H00FFFF&}of{\1c&HFFFFFF&} our
+Dialogue: 0,0:01:29.56,0:01:29.72,Default,,0,0,0,,{\an5\bord1}one of {\1c&H00FFFF&}our{\1c&HFFFFFF&}
+Dialogue: 0,0:01:29.72,0:01:29.96,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}regular{\1c&HFFFFFF&} donors
+Dialogue: 0,0:01:29.96,0:01:30.24,Default,,0,0,0,,{\an5\bord1}regular {\1c&H00FFFF&}donors{\1c&HFFFFFF&}
+Dialogue: 0,0:01:30.24,0:01:30.54,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}walked{\1c&HFFFFFF&} me back
+Dialogue: 0,0:01:30.54,0:01:30.72,Default,,0,0,0,,{\an5\bord1}walked {\1c&H00FFFF&}me{\1c&HFFFFFF&} back
+Dialogue: 0,0:01:30.72,0:01:30.90,Default,,0,0,0,,{\an5\bord1}walked me {\1c&H00FFFF&}back{\1c&HFFFFFF&}
+Dialogue: 0,0:01:30.90,0:01:30.98,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}to{\1c&HFFFFFF&} my office to
+Dialogue: 0,0:01:30.98,0:01:31.18,Default,,0,0,0,,{\an5\bord1}to {\1c&H00FF00&}my{\1c&HFFFFFF&} office to
+Dialogue: 0,0:01:31.18,0:01:31.34,Default,,0,0,0,,{\an5\bord1}to my {\1c&H00FF00&}office{\1c&HFFFFFF&} to
+Dialogue: 0,0:01:31.34,0:01:31.46,Default,,0,0,0,,{\an5\bord1}to my office {\1c&H00FF00&}to{\1c&HFFFFFF&}
+Dialogue: 0,0:01:31.46,0:01:31.64,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}eat{\1c&HFFFFFF&} something.
+Dialogue: 0,0:01:31.64,0:01:31.98,Default,,0,0,0,,{\an5\bord1}eat {\1c&H00FFFF&}something.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:32.84,0:01:33.02,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}But{\1c&HFFFFFF&} poor Mrs.
+Dialogue: 0,0:01:33.02,0:01:33.18,Default,,0,0,0,,{\an5\bord1}But {\1c&H0000FF&}poor{\1c&HFFFFFF&} Mrs.
+Dialogue: 0,0:01:33.18,0:01:33.42,Default,,0,0,0,,{\an5\bord1}But poor {\1c&H0000FF&}Mrs.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:33.48,0:01:33.62,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}Jody{\1c&HFFFFFF&} and Mrs.
+Dialogue: 0,0:01:33.62,0:01:33.90,Default,,0,0,0,,{\an5\bord1}Jody {\1c&H00FFFF&}and{\1c&HFFFFFF&} Mrs.
+Dialogue: 0,0:01:33.90,0:01:34.10,Default,,0,0,0,,{\an5\bord1}Jody and {\1c&H00FFFF&}Mrs.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:34.16,0:01:34.32,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}June{\1c&HFFFFFF&} were
+Dialogue: 0,0:01:34.32,0:01:34.54,Default,,0,0,0,,{\an5\bord1}June {\1c&H00FFFF&}were{\1c&HFFFFFF&}
+Dialogue: 0,0:01:34.54,0:01:34.72,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}really{\1c&HFFFFFF&} upset.
+Dialogue: 0,0:01:34.72,0:01:35.12,Default,,0,0,0,,{\an5\bord1}really {\1c&H00FFFF&}upset.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:36.00,0:01:36.16,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}They're{\1c&HFFFFFF&} the
+Dialogue: 0,0:01:36.16,0:01:36.30,Default,,0,0,0,,{\an5\bord1}They're {\1c&H00FFFF&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:01:36.30,0:01:36.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}sweetest{\1c&HFFFFFF&}
+Dialogue: 0,0:01:36.60,0:01:36.82,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}elderly{\1c&HFFFFFF&}
+Dialogue: 0,0:01:36.82,0:01:37.22,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}ladies{\1c&HFFFFFF&} and they
+Dialogue: 0,0:01:37.22,0:01:37.42,Default,,0,0,0,,{\an5\bord1}ladies {\1c&H0000FF&}and{\1c&HFFFFFF&} they
+Dialogue: 0,0:01:37.42,0:01:37.60,Default,,0,0,0,,{\an5\bord1}ladies and {\1c&H0000FF&}they{\1c&HFFFFFF&}
+Dialogue: 0,0:01:37.60,0:01:37.84,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}almost{\1c&HFFFFFF&} cried
+Dialogue: 0,0:01:37.84,0:01:38.06,Default,,0,0,0,,{\an5\bord1}almost {\1c&H00FFFF&}cried{\1c&HFFFFFF&}
+Dialogue: 0,0:01:38.06,0:01:38.20,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}when{\1c&HFFFFFF&} it
+Dialogue: 0,0:01:38.20,0:01:38.36,Default,,0,0,0,,{\an5\bord1}when {\1c&H00FF00&}it{\1c&HFFFFFF&}
+Dialogue: 0,0:01:38.36,0:01:38.80,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}happened.{\1c&HFFFFFF&} And I
+Dialogue: 0,0:01:39.42,0:01:39.62,Default,,0,0,0,,{\an5\bord1}happened. {\1c&H00FFFF&}And{\1c&HFFFFFF&} I
+Dialogue: 0,0:01:39.62,0:01:39.72,Default,,0,0,0,,{\an5\bord1}happened. And {\1c&H00FFFF&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:01:39.72,0:01:39.92,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}felt{\1c&HFFFFFF&} like a
+Dialogue: 0,0:01:39.92,0:01:40.06,Default,,0,0,0,,{\an5\bord1}felt {\1c&H0000FF&}like{\1c&HFFFFFF&} a
+Dialogue: 0,0:01:40.06,0:01:40.24,Default,,0,0,0,,{\an5\bord1}felt like {\1c&H0000FF&}a{\1c&HFFFFFF&}
+Dialogue: 0,0:01:40.24,0:01:40.34,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}total{\1c&HFFFFFF&} dick of
+Dialogue: 0,0:01:40.34,0:01:40.54,Default,,0,0,0,,{\an5\bord1}total {\1c&H00FFFF&}dick{\1c&HFFFFFF&} of
+Dialogue: 0,0:01:40.54,0:01:40.62,Default,,0,0,0,,{\an5\bord1}total dick {\1c&H00FFFF&}of{\1c&HFFFFFF&}
+Dialogue: 0,0:01:40.62,0:01:40.82,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}source{\1c&HFFFFFF&} wrecks
+Dialogue: 0,0:01:40.82,0:01:41.02,Default,,0,0,0,,{\an5\bord1}source {\1c&H00FFFF&}wrecks{\1c&HFFFFFF&}
+Dialogue: 0,0:01:41.02,0:01:41.28,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}for{\1c&HFFFFFF&}
+Dialogue: 0,0:01:41.28,0:01:41.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}scaring{\1c&HFFFFFF&} them.
+Dialogue: 0,0:01:41.46,0:01:42.04,Default,,0,0,0,,{\an5\bord1}scaring {\1c&H00FF00&}them.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:42.54,0:01:42.68,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}My{\1c&HFFFFFF&} mom chewed
+Dialogue: 0,0:01:42.68,0:01:42.88,Default,,0,0,0,,{\an5\bord1}My {\1c&H00FFFF&}mom{\1c&HFFFFFF&} chewed
+Dialogue: 0,0:01:42.88,0:01:43.00,Default,,0,0,0,,{\an5\bord1}My mom {\1c&H00FFFF&}chewed{\1c&HFFFFFF&}
+Dialogue: 0,0:01:43.00,0:01:43.18,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}me{\1c&HFFFFFF&} out. My
+Dialogue: 0,0:01:43.18,0:01:43.46,Default,,0,0,0,,{\an5\bord1}me {\1c&H00FFFF&}out.{\1c&HFFFFFF&} My
+Dialogue: 0,0:01:44.24,0:01:44.40,Default,,0,0,0,,{\an5\bord1}me out. {\1c&H00FFFF&}My{\1c&HFFFFFF&}
+Dialogue: 0,0:01:44.40,0:01:44.62,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}sibling{\1c&HFFFFFF&} who
+Dialogue: 0,0:01:44.62,0:01:44.84,Default,,0,0,0,,{\an5\bord1}sibling {\1c&H00FFFF&}who{\1c&HFFFFFF&}
+Dialogue: 0,0:01:44.84,0:01:45.00,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}lives{\1c&HFFFFFF&} half the
+Dialogue: 0,0:01:45.00,0:01:45.22,Default,,0,0,0,,{\an5\bord1}lives {\1c&H00FFFF&}half{\1c&HFFFFFF&} the
+Dialogue: 0,0:01:45.22,0:01:45.44,Default,,0,0,0,,{\an5\bord1}lives half {\1c&H00FFFF&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:01:45.44,0:01:45.62,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}USA{\1c&HFFFFFF&} away chewed
+Dialogue: 0,0:01:45.62,0:01:45.90,Default,,0,0,0,,{\an5\bord1}USA {\1c&H00FF00&}away{\1c&HFFFFFF&} chewed
+Dialogue: 0,0:01:45.90,0:01:46.02,Default,,0,0,0,,{\an5\bord1}USA away {\1c&H00FF00&}chewed{\1c&HFFFFFF&}
+Dialogue: 0,0:01:46.02,0:01:46.20,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}me{\1c&HFFFFFF&} our.
+Dialogue: 0,0:01:46.20,0:01:46.42,Default,,0,0,0,,{\an5\bord1}me {\1c&H0000FF&}our.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:47.41,0:01:47.82,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}My{\1c&HFFFFFF&}
+Dialogue: 0,0:01:47.82,0:01:48.22,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}gastroenterologist{\1c&HFFFFFF&}
+Dialogue: 0,0:01:48.22,0:01:48.40,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}read{\1c&HFFFFFF&} me the
+Dialogue: 0,0:01:48.40,0:01:48.58,Default,,0,0,0,,{\an5\bord1}read {\1c&H0000FF&}me{\1c&HFFFFFF&} the
+Dialogue: 0,0:01:48.58,0:01:48.72,Default,,0,0,0,,{\an5\bord1}read me {\1c&H0000FF&}the{\1c&HFFFFFF&}
+Dialogue: 0,0:01:48.72,0:01:49.04,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}absolute{\1c&HFFFFFF&} riot
+Dialogue: 0,0:01:49.04,0:01:49.32,Default,,0,0,0,,{\an5\bord1}absolute {\1c&H00FFFF&}riot{\1c&HFFFFFF&}
+Dialogue: 0,0:01:49.32,0:01:49.98,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}act.{\1c&HFFFFFF&} In short,
+Dialogue: 0,0:01:50.44,0:01:50.60,Default,,0,0,0,,{\an5\bord1}act. {\1c&H0000FF&}In{\1c&HFFFFFF&} short,
+Dialogue: 0,0:01:50.60,0:01:50.88,Default,,0,0,0,,{\an5\bord1}act. In {\1c&H0000FF&}short,{\1c&HFFFFFF&}
+Dialogue: 0,0:01:51.02,0:01:51.06,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}I{\1c&HFFFFFF&} am really,
+Dialogue: 0,0:01:51.06,0:01:51.26,Default,,0,0,0,,{\an5\bord1}I {\1c&H0000FF&}am{\1c&HFFFFFF&} really,
+Dialogue: 0,0:01:51.26,0:01:51.44,Default,,0,0,0,,{\an5\bord1}I am {\1c&H0000FF&}really,{\1c&HFFFFFF&}
+Dialogue: 0,0:01:51.44,0:01:51.64,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}really{\1c&HFFFFFF&} dumb.
+Dialogue: 0,0:01:51.64,0:01:51.98,Default,,0,0,0,,{\an5\bord1}really {\1c&H0000FF&}dumb.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:52.74,0:01:52.88,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}But{\1c&HFFFFFF&} my blood
+Dialogue: 0,0:01:52.88,0:01:53.04,Default,,0,0,0,,{\an5\bord1}But {\1c&H00FFFF&}my{\1c&HFFFFFF&} blood
+Dialogue: 0,0:01:53.04,0:01:53.26,Default,,0,0,0,,{\an5\bord1}But my {\1c&H00FFFF&}blood{\1c&HFFFFFF&}
+Dialogue: 0,0:01:53.26,0:01:53.44,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}saved{\1c&HFFFFFF&} a life in
+Dialogue: 0,0:01:53.44,0:01:53.60,Default,,0,0,0,,{\an5\bord1}saved {\1c&H0000FF&}a{\1c&HFFFFFF&} life in
+Dialogue: 0,0:01:53.60,0:01:53.76,Default,,0,0,0,,{\an5\bord1}saved a {\1c&H0000FF&}life{\1c&HFFFFFF&} in
+Dialogue: 0,0:01:53.76,0:01:53.96,Default,,0,0,0,,{\an5\bord1}saved a life {\1c&H0000FF&}in{\1c&HFFFFFF&}
+Dialogue: 0,0:01:53.96,0:01:54.10,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}Bacon{\1c&HFFFFFF&} County.
+Dialogue: 0,0:01:54.10,0:01:54.46,Default,,0,0,0,,{\an5\bord1}Bacon {\1c&H00FFFF&}County.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:55.40,0:01:55.56,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}So,{\1c&HFFFFFF&} somebody
+Dialogue: 0,0:01:55.78,0:01:55.82,Default,,0,0,0,,{\an5\bord1}So, {\1c&H0000FF&}somebody{\1c&HFFFFFF&}
+Dialogue: 0,0:01:55.82,0:01:56.28,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}benefited.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:57.32,0:01:57.72,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}TLDR{\1c&HFFFFFF&} gave blood
+Dialogue: 0,0:01:57.72,0:01:58.12,Default,,0,0,0,,{\an5\bord1}TLDR {\1c&H00FF00&}gave{\1c&HFFFFFF&} blood
+Dialogue: 0,0:01:58.12,0:01:58.28,Default,,0,0,0,,{\an5\bord1}TLDR gave {\1c&H00FF00&}blood{\1c&HFFFFFF&}
+Dialogue: 0,0:01:58.28,0:01:58.46,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}with{\1c&HFFFFFF&} a
+Dialogue: 0,0:01:58.46,0:01:58.60,Default,,0,0,0,,{\an5\bord1}with {\1c&H00FF00&}a{\1c&HFFFFFF&}
+Dialogue: 0,0:01:58.60,0:01:58.78,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}condition{\1c&HFFFFFF&} that
+Dialogue: 0,0:01:58.78,0:01:59.34,Default,,0,0,0,,{\an5\bord1}condition {\1c&H00FFFF&}that{\1c&HFFFFFF&}
+Dialogue: 0,0:01:59.34,0:01:59.34,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}causes{\1c&HFFFFFF&} blood
+Dialogue: 0,0:01:59.34,0:01:59.62,Default,,0,0,0,,{\an5\bord1}causes {\1c&H00FFFF&}blood{\1c&HFFFFFF&}
+Dialogue: 0,0:01:59.62,0:01:59.90,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}loss{\1c&HFFFFFF&} and nearly
+Dialogue: 0,0:01:59.90,0:02:00.12,Default,,0,0,0,,{\an5\bord1}loss {\1c&H0000FF&}and{\1c&HFFFFFF&} nearly
+Dialogue: 0,0:02:00.12,0:02:00.38,Default,,0,0,0,,{\an5\bord1}loss and {\1c&H0000FF&}nearly{\1c&HFFFFFF&}
+Dialogue: 0,0:02:00.38,0:02:00.60,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}scared{\1c&HFFFFFF&} two
+Dialogue: 0,0:02:00.60,0:02:00.86,Default,,0,0,0,,{\an5\bord1}scared {\1c&H00FFFF&}two{\1c&HFFFFFF&}
+Dialogue: 0,0:02:00.86,0:02:01.06,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}sweet{\1c&HFFFFFF&} elderly
+Dialogue: 0,0:02:01.06,0:02:01.28,Default,,0,0,0,,{\an5\bord1}sweet {\1c&H0000FF&}elderly{\1c&HFFFFFF&}
+Dialogue: 0,0:02:01.28,0:02:01.64,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}ladies{\1c&HFFFFFF&} half to
+Dialogue: 0,0:02:01.64,0:02:01.86,Default,,0,0,0,,{\an5\bord1}ladies {\1c&H0000FF&}half{\1c&HFFFFFF&} to
+Dialogue: 0,0:02:01.86,0:02:02.00,Default,,0,0,0,,{\an5\bord1}ladies half {\1c&H0000FF&}to{\1c&HFFFFFF&}
+Dialogue: 0,0:02:02.00,0:02:02.18,Default,,0,0,0,,{\an5\bord1}{\1c&H00FFFF&}death{\1c&HFFFFFF&} when I
+Dialogue: 0,0:02:02.18,0:02:02.34,Default,,0,0,0,,{\an5\bord1}death {\1c&H00FFFF&}when{\1c&HFFFFFF&} I
+Dialogue: 0,0:02:02.34,0:02:02.60,Default,,0,0,0,,{\an5\bord1}death when {\1c&H00FFFF&}I{\1c&HFFFFFF&}
+Dialogue: 0,0:02:02.60,0:02:02.66,Default,,0,0,0,,{\an5\bord1}{\1c&H0000FF&}passed{\1c&HFFFFFF&} out and
+Dialogue: 0,0:02:02.66,0:02:02.88,Default,,0,0,0,,{\an5\bord1}passed {\1c&H0000FF&}out{\1c&HFFFFFF&} and
+Dialogue: 0,0:02:02.88,0:02:02.98,Default,,0,0,0,,{\an5\bord1}passed out {\1c&H0000FF&}and{\1c&HFFFFFF&}
+Dialogue: 0,0:02:02.98,0:02:03.08,Default,,0,0,0,,{\an5\bord1}{\1c&H00FF00&}hit{\1c&HFFFFFF&} my head.
+Dialogue: 0,0:02:03.08,0:02:03.26,Default,,0,0,0,,{\an5\bord1}hit {\1c&H00FF00&}my{\1c&HFFFFFF&} head.
+Dialogue: 0,0:02:03.26,0:02:03.46,Default,,0,0,0,,{\an5\bord1}hit my {\1c&H00FF00&}head.{\1c&HFFFFFF&}

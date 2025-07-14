@@ -83,18 +83,38 @@ class YouTubeUploader:
         vid = res.get("id")
         print(f"[+] YouTube video ID: {vid}")
 
-        # Optional thumbnail
         if thumbnail_path:
             try:
                 youtube.thumbnails().set(
                     videoId=vid,
-                    media_body=MediaFileUpload(thumbnail_path)
+                    media_body=MediaFileUpload(
+                        thumbnail_path,
+                        mimetype="image/png",
+                        resumable=False
+                    )
                 ).execute()
+                
+                # After setting the thumbnail, fetch the snippet to verify
+                import time
+                time.sleep(2)
+
+                resp = youtube.videos().list(
+                    part="snippet",
+                    id=vid
+                ).execute()
+                item = resp.get("items", [])[0]
+                thumbs = item["snippet"]["thumbnails"]
+                print("→ API sees these thumbnails:", thumbs)
+                
                 print("  -> Thumbnail set")
             except HttpError as e:
                 if e.resp.status == 403:
                     print("  [!] Skipped thumbnail: no permission")
                 else:
+                    # log the full error body so we can debug silent failures
+                    import json as _json
+                    body = _json.loads(e.content.decode())
+                    print(f"  [!] Thumbnail error {e.resp.status}: {body}")
                     raise
 
         print("-> Using hashtags:", all_tags)
