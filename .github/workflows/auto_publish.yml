@@ -40,6 +40,9 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
 
+          # Gemini
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
           # Edge-TTS
           EDGE_TTS_VOICE_FEMALE: ${{ secrets.EDGE_TTS_VOICE_FEMALE }}
           EDGE_TTS_VOICE_MALE: ${{ secrets.EDGE_TTS_VOICE_MALE }}
