@@ -21,8 +21,9 @@ def _save_used(records: list[dict]) -> None:
 
 def find_next_post(reddit) -> Submission:
     """
-    Scan every hot post in each subreddit (up to Reddit's internal cap) 
+    Scan every hot post in each subreddit (up to Reddit's internal cap)
     and return the first one that hasn't been used that meets the criteria.
+    Posts distinguished as moderator will be skipped.
     """
     subs = settings.subreddits
     if not subs:
@@ -38,6 +39,14 @@ def find_next_post(reddit) -> Submission:
         sub = reddit.subreddit(subreddit_name)
 
         for post in sub.hot(limit=None):
+            # skip if author deleted
+            if post.author is None:
+                continue
+
+            # skip if post is distinguished as a moderator post
+            if post.distinguished == "moderator":
+                continue
+
             if post.id in used_ids:
                 continue
             if post.num_comments < settings.min_comments:

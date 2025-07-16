@@ -1,4 +1,3 @@
-# src/tts_whisper.py
 import os
 import whisper
 from .config import settings

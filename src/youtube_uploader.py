@@ -52,8 +52,9 @@ class YouTubeUploader:
         thumbnail_path: str | None = None
     ) -> str:
         # Suggest AI hashtags and merge with defaults
-        ai_tags = suggest_hashtags(description)
-        all_tags = [*ai_tags, *self.default_tags]
+        # ai_tags = suggest_hashtags(description)
+        # all_tags = [*ai_tags, *self.default_tags]
+        all_tags = self.default_tags
 
         # Build request
         youtube = get_youtube_service()
@@ -64,12 +65,16 @@ class YouTubeUploader:
                 "tags": all_tags,
                 "categoryId": "23",
             },
-            "status": {"privacyStatus": "public"}
+            "status": {
+                "privacyStatus": "public",
+                "selfDeclaredMadeForKids": False
+            }
         }
 
         media = MediaFileUpload(file_path, chunksize=-1, resumable=True)
+        # make sure to request both snippet and status
         req = youtube.videos().insert(
-            part=",".join(body.keys()),
+            part="snippet,status",
             body=body,
             media_body=media
         )
@@ -93,19 +98,6 @@ class YouTubeUploader:
                         resumable=False
                     )
                 ).execute()
-                
-                # After setting the thumbnail, fetch the snippet to verify
-                import time
-                time.sleep(2)
-
-                resp = youtube.videos().list(
-                    part="snippet",
-                    id=vid
-                ).execute()
-                item = resp.get("items", [])[0]
-                thumbs = item["snippet"]["thumbnails"]
-                print("→ API sees these thumbnails:", thumbs)
-                
                 print("  -> Thumbnail set")
             except HttpError as e:
                 if e.resp.status == 403:

@@ -61,7 +61,7 @@ def generate_svg(
         "font-family": fam,
         "font-size":   str(sub_font_size),
     })
-    new_sub.text = f"r/{subreddit}"
+    new_sub.text = f"Redditourium"
 
     # 6) wrap & write post title tspans
     orig = title_el.find("svg:tspan", ns)

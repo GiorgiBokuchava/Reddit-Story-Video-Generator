@@ -66,6 +66,6 @@ class Settings:
     thumbnail_padding: int = 32
 
     # YouTube tags
-    youtube_video_tags: list[str] = field(default_factory=lambda: ["#TIFU","#RedditStories","#StoryTime","#Reddit"])
+    youtube_video_tags: list[str] = field(default_factory=lambda: ["#shorts", "#reddit", "#redditstories"])
 
 settings = Settings()

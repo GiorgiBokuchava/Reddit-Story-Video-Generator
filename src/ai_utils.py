@@ -20,7 +20,6 @@ def generate_with_gemini(
             temperature=0.1,
         ),
     )
-    # resp.text holds the generated output
     return response.text
 
 def extract_hashtags(text: str, max_tags: int = 4) -> list[str]:
@@ -37,7 +36,6 @@ def extract_hashtags(text: str, max_tags: int = 4) -> list[str]:
                 break
     return out
 
-
 def suggest_hashtags(description: str, max_tags: int = 4) -> list[str]:
     prompt = (
         "Here is a YouTube video description:\n"
@@ -48,8 +46,64 @@ def suggest_hashtags(description: str, max_tags: int = 4) -> list[str]:
     return extract_hashtags(raw, max_tags)
 
 
+# MOOD-BASED AUDIO SELECTION
+
+# Map moods to keyword labels
+MOOD_MAP = {
+    'happy':   ['happy', 'joy', 'upbeat', 'cheerful'],
+    'sad':     ['sad', 'melancholy', 'sorrowful', 'calm'],
+    'tense':   ['tense', 'suspense', 'dramatic'],
+    'relaxed': ['relaxed', 'ambient', 'soft'],
+    'neutral': ['neutral', 'background'],
+}
+
+# Root of your audio assets
+AUDIO_ROOT = os.path.join(os.path.dirname(__file__), '..', 'assets', 'audio')
+
+def detect_mood(text: str) -> str:
+    """
+    Ask Gemini to pick one of our defined moods.
+    Falls back to 'neutral' if the response isn't one of the keys.
+    """
+    prompt = (
+        "Classify the mood of this text as one of: "
+        + ", ".join(MOOD_MAP.keys())
+        + ".\n"
+        f"Text: {text}\n"
+        "Respond with exactly one mood word."
+    )
+    resp = generate_with_gemini(prompt).strip().lower()
+    return resp if resp in MOOD_MAP else 'neutral'
+
+def select_sound_for_mood(mood: str) -> str | None:
+    """
+    From assets/audio/{mood}/ pick the first supported file.
+    If none, falls back to assets/audio/neutral/.
+    """
+    mood_dir = os.path.join(AUDIO_ROOT, mood)
+    if not os.path.isdir(mood_dir):
+        mood_dir = os.path.join(AUDIO_ROOT, 'neutral')
+
+    for fname in os.listdir(mood_dir):
+        if fname.lower().endswith(('.mp3', '.wav', '.aac')):
+            return os.path.abspath(os.path.join(mood_dir, fname))
+    return None
+
+# QUICK-TEST CLI
+
 if __name__ == "__main__":
-    sample_desc = ("TIFU by buying a cheap swimsuit and flashing everyone on a kayak tour I was on vacation in the Turkish Riviera and didn’t pack a bathing suit since I didn’t have room, thinking I’d just buy one when I got there. Instead of going to a proper store, I got lazy and grabbed one from the convenience store next to my hotel. During a group kayak tour to see some sunken cities and an old Turkish castle, I stretched to step into the kayak that was on a dock and the swimsuit completely split open. I mean full rip. Thankfully I was the last one to get into a kayak so. The only one to maybe get a view of the initial tear was one unfortunate guide. I panicked, tied my shirt around my waist to cover up, and forgot to grab my water bottle off the dock. I was stuck like that for six hours in the sun, paddling around in 90 degree heat. I was so preoccupied I didn’t even put sunscreen on the rest of me, just my arms and face. I ended up with the worst sunburn of my life. TLDR: Bought a $5 swimsuit, maybe flashed strangers, forgot my water, and got the worst sunburn of my life. Edit: a lot of people are hung up on the fact that I couldn’t fit the swimsuit. I was traveling to Europe for 3 weeks and I only travel with carry ons so something had to be sacrificed and since we were only on the coast for 3 days I figured I could just buy a swimsuit and then throw it away when we left.")
-    print("Description:\n", sample_desc, "\n")
-    tags = suggest_hashtags(sample_desc)
-    print("Generated Hashtags:", tags)
+    # Usage:
+    #   python -m src.gemini_client "Your video description here…"
+    import sys
+    desc = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else ""
+    if not desc:
+        print("Provide a description on the command line.")
+        sys.exit(1)
+
+    mood = detect_mood(desc)
+    sound = select_sound_for_mood(mood)
+    print(f"Detected mood: {mood}")
+    if sound:
+        print(f"Selected audio file: {sound}")
+    else:
+        print("No audio found for that mood.")
