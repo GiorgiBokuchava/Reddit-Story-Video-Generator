@@ -41,7 +41,8 @@ jobs:
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
 
           # Edge-TTS
-          EDGE_TTS_VOICE: ${{ secrets.EDGE_TTS_VOICE }}
+          EDGE_TTS_VOICE_FEMALE: ${{ secrets.EDGE_TTS_VOICE_FEMALE }}
+          EDGE_TTS_VOICE_MALE: ${{ secrets.EDGE_TTS_VOICE_MALE }}
           EDGE_TTS_RATE: ${{ secrets.EDGE_TTS_RATE }}
 
           # ElevenLabs

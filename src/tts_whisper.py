@@ -4,7 +4,12 @@ from .config import settings
 from .audio import combine_wavs
 from .tts_edge import synthesize_sentences
 
-def synthesize_with_whisper(sentences: list[str], out_dir: str) -> tuple[list[tuple[str, int]], list[dict]]:
+
+def synthesize_with_whisper(
+    sentences: list[str],
+    out_dir: str,
+    voice: str
+) -> tuple[list[tuple[str, int]], list[dict]]:
     """
     Generate per-sentence wavs via edge_tts (reuse your tts_edge module)
     combine_wavs into settings.audio_wav
@@ -13,8 +18,8 @@ def synthesize_with_whisper(sentences: list[str], out_dir: str) -> tuple[list[tu
     """
     os.makedirs(out_dir, exist_ok=True)
 
-    # 1) Make the chunks
-    wav_infos = synthesize_sentences(sentences, out_dir)
+    # 1) Make the chunks using Edge TTS with the chosen voice
+    wav_infos = synthesize_sentences(sentences, out_dir, voice)
 
     # 2) Merge into single WAV
     combine_wavs(wav_infos, settings.audio_mp3, settings.audio_wav)
@@ -39,4 +44,5 @@ def synthesize_with_whisper(sentences: list[str], out_dir: str) -> tuple[list[tu
                 "sid":   sid
             })
 
+    # return both audio file info and word timestamps
     return wav_infos, all_words

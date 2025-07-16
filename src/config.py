@@ -20,7 +20,8 @@ class Settings:
 
     # TTS
     tts_provider: str = os.getenv("TTS_PROVIDER","elevenlabs")
-    edge_tts_voice: str = os.getenv("EDGE_TTS_VOICE","en-US-JennyNeural")
+    edge_tts_voice_female: str = os.getenv("EDGE_TTS_VOICE_FEMALE","en-US-JennyNeural")
+    edge_tts_voice_male: str = os.getenv("EDGE_TTS_VOICE_MALE","en-US-BrianNeural")
     edge_tts_rate: str = os.getenv("EDGE_TTS_RATE","+10%")
     elevenlabs_api_key: str = os.getenv("ELEVENLABS_API_KEY","")
     elevenlabs_voice_id: str = os.getenv("ELEVENLABS_VOICE_ID","21m00Tcm4TlvDq8ikWAM")

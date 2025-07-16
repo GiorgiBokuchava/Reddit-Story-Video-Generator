@@ -81,7 +81,8 @@ Copy `.env.example` -> `.env`, then set:
 REDDIT_CLIENT_ID=…
 REDDIT_CLIENT_SECRET=…
 REDDIT_USER_AGENT=…
-EDGE_TTS_VOICE=en-US-JennyNeural
+EDGE_TTS_VOICE_FEMALE=en-US-JennyNeural
+EDGE_TTS_VOICE_MALE=en-US-BrianNeural
 EDGE_TTS_RATE=+10%
 DRIVE_BACKGROUNDS_FOLDER_ID=your_background_folder_id
 DRIVE_OUTPUTS_FOLDER_ID=your_outputs_folder_id
@@ -123,7 +124,7 @@ Enter a Reddit URL when prompted. The tool will:
 
 ## 🛠️ Customization
 
-* **Voices**: change `EDGE_TTS_VOICE` / `EDGE_TTS_RATE` in `.env`
+* **Voices**: change `EDGE_TTS_VOICE_FEMALE` / `EDGE_TTS_RATE` in `.env`
 * **Subtitle style**: edit `captions/captions.ass`
 * **FFmpeg filters**: adjust in `src/video_mux.py`
 * **Backgrounds**: add/remove clips in your Drive backgrounds folder

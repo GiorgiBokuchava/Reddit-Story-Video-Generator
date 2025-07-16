@@ -24,7 +24,7 @@ CLIENT_ID     = os.getenv('REDDIT_CLIENT_ID')
 CLIENT_SECRET = os.getenv('REDDIT_CLIENT_SECRET')
 USER_AGENT    = os.getenv('REDDIT_USER_AGENT')
 
-VOICE      = os.getenv('EDGE_TTS_VOICE', 'en-US-JennyNeural')
+VOICE = os.getenv('EDGE_TTS_VOICE', 'en-US-JennyNeural')
 TTS_RATE   = os.getenv('EDGE_TTS_RATE', '+10%')
 
 TEMPLATE_ASS = 'captions/captions.ass'

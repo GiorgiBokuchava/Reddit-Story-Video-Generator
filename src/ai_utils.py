@@ -7,23 +7,44 @@ from google.genai import types
 # Load environment variables (expects GEMINI_API_KEY)
 load_dotenv()
 
-def generate_with_gemini(
-    prompt: str,
-) -> str:
-    # Call Gemini and return the raw generated text.
-    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-    response = client.models.generate_content(
-        model="gemini-1.5-flash",
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            max_output_tokens=128,
-            temperature=0.1,
-        ),
-    )
-    return response.text
+# Fetch API key once
+_GEMINI_KEY = os.getenv("GEMINI_API_KEY")
+if not _GEMINI_KEY:
+    raise RuntimeError("GEMINI_API_KEY environment variable is not set or empty.")
+
+# Hashtag extraction logic
+MOOD_MAP = {
+    'happy':   ['happy', 'joy', 'upbeat', 'cheerful'],
+    'sad':     ['sad', 'melancholy', 'sorrowful', 'calm'],
+    'tense':   ['tense', 'suspense', 'dramatic'],
+    'relaxed': ['relaxed', 'ambient', 'soft'],
+    'neutral': ['neutral', 'background'],
+}
+
+AUDIO_ROOT = os.path.join(os.path.dirname(__file__), '..', 'assets', 'audio')
+
+
+def generate_with_gemini(prompt: str) -> str:
+    """
+    Call Gemini and return the raw generated text.
+    Raises RuntimeError if the API request fails or key is invalid.
+    """
+    try:
+        client = genai.Client(api_key=_GEMINI_KEY)
+        response = client.models.generate_content(
+            model="gemini-1.5-flash",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                max_output_tokens=128,
+                temperature=0.1,
+            ),
+        )
+        return response.text
+    except Exception as e:
+        raise RuntimeError(f"Gemini generation failed: {e}")
+
 
 def extract_hashtags(text: str, max_tags: int = 4) -> list[str]:
-    # Regex out #words, dedupe, and trim to max_tags
     tags = re.findall(r"#\w+", text)
     seen = set()
     out = []
@@ -36,6 +57,7 @@ def extract_hashtags(text: str, max_tags: int = 4) -> list[str]:
                 break
     return out
 
+
 def suggest_hashtags(description: str, max_tags: int = 4) -> list[str]:
     prompt = (
         "Here is a YouTube video description:\n"
@@ -45,20 +67,6 @@ def suggest_hashtags(description: str, max_tags: int = 4) -> list[str]:
     raw = generate_with_gemini(prompt)
     return extract_hashtags(raw, max_tags)
 
-
-# MOOD-BASED AUDIO SELECTION
-
-# Map moods to keyword labels
-MOOD_MAP = {
-    'happy':   ['happy', 'joy', 'upbeat', 'cheerful'],
-    'sad':     ['sad', 'melancholy', 'sorrowful', 'calm'],
-    'tense':   ['tense', 'suspense', 'dramatic'],
-    'relaxed': ['relaxed', 'ambient', 'soft'],
-    'neutral': ['neutral', 'background'],
-}
-
-# Root of your audio assets
-AUDIO_ROOT = os.path.join(os.path.dirname(__file__), '..', 'assets', 'audio')
 
 def detect_mood(text: str) -> str:
     """
@@ -72,8 +80,23 @@ def detect_mood(text: str) -> str:
         f"Text: {text}\n"
         "Respond with exactly one mood word."
     )
-    resp = generate_with_gemini(prompt).strip().lower()
-    return resp if resp in MOOD_MAP else 'neutral'
+    raw = generate_with_gemini(prompt).strip().lower()
+    return raw if raw in MOOD_MAP else 'neutral'
+
+
+def detect_gender(text: str) -> str:
+    """
+    Ask Gemini to determine the author’s likely gender based on writing style.
+    Responds 'male' or 'female'.
+    """
+    prompt = (
+        "Based on the writing style and content, is the author male or female?"
+        f"\nText: {text}\n"
+        "Respond with exactly one word: male or female."
+    )
+    raw = generate_with_gemini(prompt).strip().lower()
+    return raw if raw in ('male', 'female') else 'female'
+
 
 def select_sound_for_mood(mood: str) -> str | None:
     """
@@ -89,21 +112,25 @@ def select_sound_for_mood(mood: str) -> str | None:
             return os.path.abspath(os.path.join(mood_dir, fname))
     return None
 
-# QUICK-TEST CLI
+
+# CLI for testing Gemini outputs
+def main():
+    import sys
+    if len(sys.argv) < 2:
+        print("Usage: python -m src.ai_utils <description-or-text-file>")
+        sys.exit(1)
+    arg = sys.argv[1]
+    if os.path.isfile(arg):
+        with open(arg, encoding='utf-8') as f:
+            description = f.read().strip()
+    else:
+        description = arg
+
+    print("\n--- GEMINI OUTPUTS ---")
+    print("Hashtags:")
+    print(suggest_hashtags(description))
+    print("Mood:", detect_mood(description))
+    print("Gender:", detect_gender(description))
 
 if __name__ == "__main__":
-    # Usage:
-    #   python -m src.gemini_client "Your video description here…"
-    import sys
-    desc = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else ""
-    if not desc:
-        print("Provide a description on the command line.")
-        sys.exit(1)
-
-    mood = detect_mood(desc)
-    sound = select_sound_for_mood(mood)
-    print(f"Detected mood: {mood}")
-    if sound:
-        print(f"Selected audio file: {sound}")
-    else:
-        print("No audio found for that mood.")
+    main()
