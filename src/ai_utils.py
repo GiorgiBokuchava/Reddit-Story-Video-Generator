@@ -1,8 +1,7 @@
 import os
 import re
 from dotenv import load_dotenv
-from google import genai
-from google.genai import types
+import google.generativeai as genai
 
 # Load environment variables (expects GEMINI_API_KEY)
 load_dotenv()
@@ -30,18 +29,19 @@ def generate_with_gemini(prompt: str) -> str:
     Raises RuntimeError if the API request fails or key is invalid.
     """
     try:
-        client = genai.Client(api_key=_GEMINI_KEY)
-        response = client.models.generate_content(
-            model="gemini-1.5-flash",
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                max_output_tokens=128,
-                temperature=0.1,
-            ),
+        genai.configure(api_key=_GEMINI_KEY)
+        model = genai.GenerativeModel("models/gemini-2.5-flash")
+        response = model.generate_content(
+            prompt,
+            generation_config={
+                "max_output_tokens": 128,
+                "temperature": 0.1,
+            },
         )
-        return response.text
+        return response.text.strip()
     except Exception as e:
         raise RuntimeError(f"Gemini generation failed: {e}")
+
 
 
 def extract_hashtags(text: str, max_tags: int = 4) -> list[str]:
