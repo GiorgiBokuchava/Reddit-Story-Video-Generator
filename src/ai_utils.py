@@ -22,11 +22,10 @@ MOOD_MAP = {
 
 AUDIO_ROOT = os.path.join(os.path.dirname(__file__), '..', 'assets', 'audio')
 
-
 def generate_with_gemini(prompt: str) -> str:
     """
-    Call Gemini and return the raw generated text.
-    Raises RuntimeError if the API request fails or key is invalid.
+    Call Gemini and return generated text.
+    Handles empty or moderated responses gracefully.
     """
     try:
         genai.configure(api_key=_GEMINI_KEY)
@@ -38,11 +37,14 @@ def generate_with_gemini(prompt: str) -> str:
                 "temperature": 0.1,
             },
         )
+        # Handle moderation / empty responses
+        if not getattr(response, "text", None):
+            reason = getattr(response.candidates[0], "finish_reason", "unknown")
+            print(f"[WARN] Gemini returned no text (finish_reason={reason}).")
+            return "neutral"  # or "unknown" / a fallback value
         return response.text.strip()
     except Exception as e:
         raise RuntimeError(f"Gemini generation failed: {e}")
-
-
 
 def extract_hashtags(text: str, max_tags: int = 4) -> list[str]:
     tags = re.findall(r"#\w+", text)
