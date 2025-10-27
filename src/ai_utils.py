@@ -37,14 +37,35 @@ def generate_with_gemini(prompt: str) -> str:
                 "temperature": 0.1,
             },
         )
-        # Handle moderation / empty responses
-        if not getattr(response, "text", None):
-            reason = getattr(response.candidates[0], "finish_reason", "unknown")
-            print(f"[WARN] Gemini returned no text (finish_reason={reason}).")
-            return "neutral"  # or "unknown" / a fallback value
-        return response.text.strip()
+        
+        if not response.candidates:
+            print("[WARN] Gemini returned no candidates.")
+            return "neutral"
+
+        candidate = response.candidates[0]
+        
+        if candidate.finish_reason == 2:
+            print(f"[WARN] Gemini blocked response (SAFETY filter)")
+            return "neutral"
+
+        if not candidate.content or not candidate.content.parts:
+            print(f"[WARN] Gemini returned empty content")
+            return "neutral"
+
+        text_parts = []
+        for part in candidate.content.parts:
+            if hasattr(part, 'text'):
+                text_parts.append(part.text)
+        
+        if not text_parts:
+            print(f"[WARN] No text parts found in response")
+            return "neutral"
+
+        return " ".join(text_parts).strip()
+
     except Exception as e:
-        raise RuntimeError(f"Gemini generation failed: {e}")
+        print(f"[ERROR] Gemini generation failed: {e}")
+        return "neutral"
 
 def extract_hashtags(text: str, max_tags: int = 4) -> list[str]:
     tags = re.findall(r"#\w+", text)
@@ -88,7 +109,7 @@ def detect_mood(text: str) -> str:
 
 def detect_gender(text: str) -> str:
     """
-    Ask Gemini to determine the author’s likely gender based on writing style.
+    Ask Gemini to determine the author's likely gender based on writing style.
     Responds 'male' or 'female'.
     """
     prompt = (
