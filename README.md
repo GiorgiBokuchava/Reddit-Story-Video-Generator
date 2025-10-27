@@ -1,4 +1,12 @@
 # Reddit Story Video Generator
+---
+**Example:**
+YouTube channel: [https://www.youtube.com/@Redditourium](https://www.youtube.com/@Redditourium)
+
+https://github.com/user-attachments/assets/67c88cb2-d20d-4a84-9547-957605b93bb5
+
+
+---
 
 **Reddit Story Video Generator** is a Python tool that automates turning Reddit posts into vertical videos with AI voice-over, dynamic karaoke-style subtitles, and Drive-hosted background videos.
 
